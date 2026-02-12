@@ -1,7 +1,9 @@
 import { ExternalLink, MapPin } from "lucide-react";
+import { Link } from "react-router-dom";
 
 interface BrandCardProps {
   name: string;
+  slug: string;
   country: string;
   description: string;
   category: string;
@@ -9,12 +11,10 @@ interface BrandCardProps {
   flag: string;
 }
 
-const BrandCard = ({ name, country, description, category, url, flag }: BrandCardProps) => {
+const BrandCard = ({ name, slug, country, description, category, flag }: BrandCardProps) => {
   return (
-    <a
-      href={url}
-      target="_blank"
-      rel="noopener noreferrer"
+    <Link
+      to={`/merk/${slug}`}
       className="group block bg-card rounded-lg p-6 border border-border hover:border-primary/30 transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
     >
       <div className="flex items-start justify-between mb-4">
@@ -31,13 +31,13 @@ const BrandCard = ({ name, country, description, category, url, flag }: BrandCar
         </div>
         <ExternalLink className="w-4 h-4 text-muted-foreground group-hover:text-primary transition-colors mt-1" />
       </div>
-      <p className="font-body text-sm text-muted-foreground leading-relaxed mb-4">
+      <p className="font-body text-sm text-muted-foreground leading-relaxed mb-4 line-clamp-3">
         {description}
       </p>
       <span className="inline-block font-body text-xs tracking-wider uppercase bg-secondary text-secondary-foreground px-3 py-1 rounded-full">
         {category}
       </span>
-    </a>
+    </Link>
   );
 };
 

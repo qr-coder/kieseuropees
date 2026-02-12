@@ -1,0 +1,133 @@
+export interface Brand {
+  name: string;
+  slug: string;
+  country: string;
+  flag: string;
+  description: string;
+  longDescription: string;
+  category: string;
+  url: string;
+  founded: string;
+  headquarters: string;
+  highlights: string[];
+}
+
+export const brands: Brand[] = [
+  {
+    name: "COS",
+    slug: "cos",
+    country: "Zweden",
+    flag: "🇸🇪",
+    description: "COS staat bekend om hun minimalistische, tijdloze kleding met een sterke focus op duurzame materialen en modern Scandinavisch design. Het merk biedt seizoenloze collecties die jarenlang meegaan, met aandacht voor architecturale silhouetten en hoogwaardige stoffen. Hun toewijding aan circulaire mode blijkt uit initiatieven zoals hun resale-platform en het gebruik van biologisch katoen en gerecyclede vezels.",
+    longDescription: "COS werd opgericht in 2007 als onderdeel van de H&M Group, maar onderscheidt zich door een geheel eigen identiteit. Het merk haalt inspiratie uit architectuur, kunst en moderne cultuur en vertaalt dit naar kleding die zowel functioneel als esthetisch aantrekkelijk is. De collecties worden ontworpen vanuit Londen door een team dat waarde hecht aan innovatie en kwaliteit boven kwantiteit.\n\nDuurzaamheid is geen bijzaak bij COS maar een kernonderdeel van de bedrijfsstrategie. Het merk heeft zich gecommitteerd aan het gebruik van 100% duurzaam gewonnen materialen en investeert in nieuwe technologieën zoals gerecycled kasjmier en plantaardig geverfd textiel. Via hun Resell-platform kunnen klanten eerder gekochte COS-items doorverkopen, wat de levensduur van elk kledingstuk verlengt.\n\nDe winkels van COS zijn op zich al een ervaring — vaak gevestigd in architecturaal bijzondere panden met een galerie-achtige sfeer die de kleding als kunst presenteert.",
+    category: "Minimalistisch",
+    url: "https://www.cos.com",
+    founded: "2007",
+    headquarters: "Londen, VK",
+    highlights: ["Resale-platform voor circulaire mode", "100% duurzaam gewonnen materialen als doel", "Architecturale winkelconcepten"],
+  },
+  {
+    name: "Arket",
+    slug: "arket",
+    country: "Zweden",
+    flag: "🇸🇪",
+    description: "Arket combineert moderne basics met een lifestyle-aanpak, waarbij transparantie in de productieketen centraal staat. Elk kledingstuk wordt vergezeld van gedetailleerde informatie over de fabriek waar het is gemaakt. Het merk biedt naast kleding ook huishoudelijke producten en heeft zelfs eigen cafés met een Scandinavisch-geïnspireerd menu, wat hun holistische benadering van duurzaam leven onderstreept.",
+    longDescription: "Arket, wat 'vel papier' betekent in het Zweeds, werd in 2017 gelanceerd met de ambitie om een modern marktplein te zijn voor alledaagse kwaliteitsproducten. Het merk is onderdeel van de H&M Group maar opereert volledig onafhankelijk met een eigen designteam in Stockholm.\n\nWat Arket uniek maakt is hun radicale transparantie: bij elk product staat vermeld in welke fabriek het is gemaakt, inclusief locatie en certificeringen. Deze openheid stelt consumenten in staat om bewuste keuzes te maken. Het merk werkt samen met fabrieken die al generaties lang vakmanschap leveren, van Portugese breiateliers tot Japanse denimweverijen.\n\nNaast kleding biedt Arket een zorgvuldig samengesteld assortiment van huishoudelijke producten, van keukengerei tot verzorgingsproducten, allemaal geselecteerd op basis van functionaliteit en duurzaamheid. De Arket-cafés in hun winkels serveren een plantaardig menu dat dezelfde waarden van kwaliteit en bewuste keuzes weerspiegelt.",
+    category: "Basics",
+    url: "https://www.arket.com",
+    founded: "2017",
+    headquarters: "Stockholm, Zweden",
+    highlights: ["Volledige fabriekstransparantie", "Eigen cafés met plantaardig menu", "Samenwerking met ambachtelijke fabrieken"],
+  },
+  {
+    name: "A.P.C.",
+    slug: "apc",
+    country: "Frankrijk",
+    flag: "🇫🇷",
+    description: "A.P.C. is het toonbeeld van Frans vakmanschap met clean, verfijnde designs die trends overstijgen. Het merk is wereldberoemd om hun iconische raw denim jeans die mooier worden naarmate je ze langer draagt. Oprichter Jean Touitou gelooft in de kracht van eenvoud, wat resulteert in stukken die seizoen na seizoen relevant blijven en een bewuste tegenhanger vormen van fast fashion.",
+    longDescription: "A.P.C. — Atelier de Production et de Création — werd in 1987 opgericht door Jean Touitou in Parijs. Het merk ontstond als reactie op de overdaad van de jaren tachtig mode en omarmde een filosofie van eenvoud, kwaliteit en tijdloosheid die vandaag de dag relevanter is dan ooit.\n\nDe raw denim jeans van A.P.C. zijn uitgegroeid tot een cultureel fenomeen. Gemaakt van onbehandeld Japans selvedge denim, ontwikkelt elke jeans een uniek verouderingspatroon dat het verhaal van de drager vertelt. Het merk moedigt klanten aan om hun jeans zo lang mogelijk te dragen voordat ze gewassen worden, wat resulteert in een persoonlijk kunstwerk.\n\nA.P.C. heeft ook een succesvol Butler-programma waarbij klanten hun gedragen jeans kunnen inruilen voor korting op een nieuw paar. De ingeleverde jeans worden gerepareerd en verkocht in hun 'Surplus'-collectie, wat bijdraagt aan een circulair model. De ateliers in Parijs blijven het kloppend hart van het merk, waar elk ontwerp begint met de vraag: is dit echt nodig?",
+    category: "Premium",
+    url: "https://www.apc.fr",
+    founded: "1987",
+    headquarters: "Parijs, Frankrijk",
+    highlights: ["Iconische raw denim met unieke veroudering", "Butler-inruilprogramma", "Meer dan 35 jaar tijdloos ontwerp"],
+  },
+  {
+    name: "Stanley/Stella",
+    slug: "stanley-stella",
+    country: "België",
+    flag: "🇧🇪",
+    description: "Stanley/Stella produceert kleding van 100% biologisch katoen met GOTS-certificering, wat garandeert dat elk stap van het productieproces aan strenge milieu- en sociale normen voldoet. Het Belgische merk werkt uitsluitend met fabrieken die eerlijke lonen betalen en veilige werkomstandigheden bieden. Hun basics zijn favoriet bij creatieve studio's en merken die op zoek zijn naar een duurzaam canvas voor eigen ontwerpen.",
+    longDescription: "Stanley/Stella werd opgericht in Brussel met een eenvoudige maar krachtige missie: bewijzen dat massaproductie en duurzaamheid samen kunnen gaan. Het merk heeft zich ontwikkeld tot Europa's toonaangevende producent van duurzame blanco kleding die als basis dient voor bedrukking en branding.\n\nElk kledingstuk draagt de GOTS-certificering (Global Organic Textile Standard), wat betekent dat van het katoenveldt tot het eindproduct elke stap voldoet aan de strengste milieu- en sociale normen ter wereld. Het biologisch katoen wordt verbouwd zonder pesticiden of genetisch gemodificeerde zaden, wat zowel het milieu als de boeren beschermt.\n\nHet merk werkt met een select aantal fabrieken in Bangladesh en China die regelmatig geauditeerd worden en waar medewerkers een loon verdienen dat boven het wettelijke minimum ligt. Stanley/Stella publiceert jaarlijks een gedetailleerd duurzaamheidsrapport met concrete cijfers over waterverbruik, CO2-uitstoot en sociale impact.",
+    category: "Duurzaam",
+    url: "https://www.stanleystella.com",
+    founded: "2012",
+    headquarters: "Brussel, België",
+    highlights: ["GOTS-gecertificeerde productie", "Jaarlijks transparant duurzaamheidsrapport", "Favoriet bij creatieve studio's"],
+  },
+  {
+    name: "Sandqvist",
+    slug: "sandqvist",
+    country: "Zweden",
+    flag: "🇸🇪",
+    description: "Sandqvist ontwerpt duurzame tassen en accessoires vanuit Stockholm, met een unieke mix van Scandinavisch minimalisme en functioneel design. Het merk gebruikt steeds meer gerecyclede materialen en plantaardig gelooid leer, en investeert actief in projecten voor bosbehoud. Hun rugzakken en weekendtassen zijn ontworpen om dagelijks gebruik jarenlang te doorstaan, wat ze tot een bewuste investering maakt.",
+    longDescription: "Sandqvist werd in 2004 opgericht door de broers Anton en Daniel Sandqvist in Stockholm. Geïnspireerd door de Zweedse natuur en het idee dat je alleen hoeft mee te nemen wat echt nodig is, ontwerpen ze tassen die functionaliteit en schoonheid combineren.\n\nHet merk heeft een ambitieus duurzaamheidsprogramma genaamd 'A Greener Choice' waarbij ze systematisch overschakelen op milieuvriendelijkere materialen. Inmiddels is meer dan 80% van hun collectie gemaakt van gerecycled polyester, biologisch katoen of plantaardig gelooid leer. Sandqvist compenseert ook hun volledige CO2-uitstoot en investeert in herbebossingsprojecten.\n\nElke Sandqvist-tas wordt ontworpen om jarenlang mee te gaan en de levensstijl van de drager te weerspiegelen — van de dagelijkse forens tot het weekendavontuur. Het merk biedt ook een reparatieservice aan om de levensduur van hun producten te verlengen, wat past bij hun filosofie van minder kopen maar beter kiezen.",
+    category: "Accessoires",
+    url: "https://www.sandqvist.com",
+    founded: "2004",
+    headquarters: "Stockholm, Zweden",
+    highlights: ["80%+ collectie van duurzame materialen", "CO2-neutrale productie", "Reparatieservice voor langere levensduur"],
+  },
+  {
+    name: "Veja",
+    slug: "veja",
+    country: "Frankrijk",
+    flag: "🇫🇷",
+    description: "Veja revolutioneerde de sneakerwereld door transparantie en eerlijke handel centraal te stellen. Hun schoenen worden gemaakt van wild rubber uit het Amazonegebied, biologisch katoen uit Brazilië en gerecycled plastic. Het Franse merk besteedt nul euro aan traditionele reclame en investeert dat budget volledig in betere materialen en eerlijke lonen voor alle medewerkers in de keten.",
+    longDescription: "Veja werd in 2004 opgericht door Sébastien Kopp en François-Ghislain Morillion nadat ze een jaar lang fabrieken over de hele wereld bezochten en geschokt waren door de arbeidsomstandigheden in de mode-industrie. Ze besloten een sneakermerk te starten dat elke conventie van de industrie zou uitdagen.\n\nHet meest revolutionaire aspect van Veja is hun advertentiebeleid: het merk besteedt letterlijk nul euro aan marketing en reclame. Het budget dat traditionele sneakermerken aan campagnes besteden — vaak tot 70% van de productkosten — investeert Veja in betere materialen en eerlijke lonen. Dit betekent dat een Veja-sneaker vijf tot zeven keer meer kost om te produceren dan een conventionele sneaker van vergelijkbare verkoopprijs.\n\nHet rubber voor de zolen wordt wild geoogst in het Amazonegebied door lokale gemeenschappen, wat bijdraagt aan het behoud van het regenwoud doordat de bomen economische waarde krijgen. Het biologisch katoen komt van famileboerderijen in Brazilië die eerlijke handelsprijzen ontvangen.",
+    category: "Schoenen",
+    url: "https://www.veja-store.com",
+    founded: "2004",
+    headquarters: "Parijs, Frankrijk",
+    highlights: ["Nul euro aan reclame-uitgaven", "Wild rubber uit het Amazonegebied", "5-7x hogere productiekosten dan conventioneel"],
+  },
+  {
+    name: "Filippa K",
+    slug: "filippa-k",
+    country: "Zweden",
+    flag: "🇸🇪",
+    description: "Filippa K belichaamt Scandinavische luxe met een sterk duurzaamheidsprogramma dat tot de meest ambitieuze in de mode-industrie behoort. Het merk hanteert het principe 'style over fashion' en ontwerpt klassieke stukken die meerdere seizoenen meegaan. Met hun eigen tweedehands platform en lease-opties stimuleren ze actief een langere levensduur van kleding en een circulaire economie.",
+    longDescription: "Filippa K werd in 1993 opgericht door Filippa Knutsson in Stockholm met een visie die haar tijd ver vooruit was: mode moet tijdloos zijn. In een tijdperk van overdreven logo's en snelle trends koos zij voor minimalisme, kwaliteit en een garderobe die seizoen na seizoen relevant blijft.\n\nHet merk heeft het concept 'style over fashion' tot hun kernfilosofie gemaakt. Waar de mode-industrie draait om constante vernieuwing, ontwerpt Filippa K collecties die bewust voortbouwen op vorige seizoenen. Veel stukken uit eerdere collecties zijn nog steeds verkrijgbaar, wat hun tijdloze karakter onderstreept.\n\nFilippa K loopt voorop in circulaire mode met hun eigen Preowned-platform waar klanten eerder gekochte items kunnen doorverkopen. Daarnaast bieden ze via hun Lease-programma de mogelijkheid om premium stukken tijdelijk te huren, wat de toegankelijkheid vergroot en de milieu-impact vermindert. Het merk publiceert een jaarlijks duurzaamheidsrapport met ambitieuze doelen voor klimaatneutraliteit.",
+    category: "Scandinavisch",
+    url: "https://www.filippa-k.com",
+    founded: "1993",
+    headquarters: "Stockholm, Zweden",
+    highlights: ["Preowned-platform en lease-opties", "'Style over fashion' filosofie", "Ambitieuze klimaatneutraliteitsdoelen"],
+  },
+  {
+    name: "MUD Jeans",
+    slug: "mud-jeans",
+    country: "Nederland",
+    flag: "🇳🇱",
+    description: "MUD Jeans is een Nederlands pioniersmerk in circulaire denim dat je de mogelijkheid biedt om jeans te leasen in plaats van te kopen. Aan het einde van de leaseperiode wordt de stof gerecycled tot nieuwe jeans, waardoor er een volledig gesloten kringloop ontstaat. Het merk gebruikt tot 40% gerecycled denim in hun producten en bespaart zo duizenden liters water per spijkerbroek vergeleken met conventionele productie.",
+    longDescription: "MUD Jeans werd in 2013 opgericht door Bert van Son in Laren, Nederland. Na 30 jaar ervaring in de textielindustrie was Van Son vastbesloten om te bewijzen dat mode volledig circulair kan zijn. Het resultaat is een merk dat de conventionele eigendomseconomie uitdaagt met een revolutionair leasemodel.\n\nHet Lease A Jeans-programma werkt eenvoudig: voor een maandelijks bedrag ontvang je een nieuwe jeans. Na 12 maanden kun je de jeans houden, omruilen voor een nieuw model, of terugsturen voor recycling. Teruggestuurde jeans worden in Spanje vermalen tot vezels en geweven tot nieuw denim, waardoor een volledig gesloten kringloop ontstaat.\n\nMUD Jeans bespaart gemiddeld 3.000 liter water per jeans vergeleken met conventionele productie. Het merk gebruikt een mix van gerecycled denim (tot 40%) en biologisch katoen, en werkt met een GOTS-gecertificeerde fabriek in Tunesië waar eerlijke lonen worden betaald. In 2023 ontving MUD Jeans de B Corp-certificering, wat hun positie als leider in duurzame mode bevestigt.",
+    category: "Circulair",
+    url: "https://www.mudjeans.eu",
+    founded: "2013",
+    headquarters: "Laren, Nederland",
+    highlights: ["Lease A Jeans circulair programma", "3.000 liter waterbesparing per jeans", "B Corp-gecertificeerd"],
+  },
+  {
+    name: "Ecoalf",
+    slug: "ecoalf",
+    country: "Spanje",
+    flag: "🇪🇸",
+    description: "Ecoalf is een Spaans modemerk met de missie om de eerste generatie gerecyclede kleding te creëren met dezelfde kwaliteit als niet-gerecyclede mode. Via hun 'Upcycling the Oceans'-project werken ze samen met vissers in de Middellandse Zee om plastic afval op te vissen en te transformeren tot hoogwaardige stoffen. Het merk bewijst dat stijlvolle mode en milieubewustzijn perfect samengaan.",
+    longDescription: "Ecoalf werd in 2009 opgericht door Javier Goyeneche in Madrid met een gedurfde missie: de eerste modegeneratie creëren die volledig gemaakt is van gerecyclede materialen, zonder concessies aan kwaliteit of design. De naam is een eerbetoon aan zijn zoon Alfredo, voor wie hij een betere wereld wilde achterlaten.\n\nHet meest baanbrekende initiatief van Ecoalf is 'Upcycling the Oceans', gestart in 2015 in samenwerking met de HAP Foundation. In dit project werken meer dan 3.000 vissers in Spanje, Frankrijk, Italië, Griekenland en Thailand samen om plastic afval dat in hun netten terechtkomt te verzamelen in plaats van terug in zee te gooien. Dit afval wordt vervolgens getransformeerd tot hoogwaardig garen voor Ecoalf's collecties.\n\nHet merk heeft meer dan 450 stoffen ontwikkeld uit gerecyclede materialen, waaronder nylon van oude visnetten, polyester van plastic flessen en wol van post-consumer afval. Ecoalf bewijst dat innovatie en duurzaamheid de mode-industrie kunnen transformeren zonder in te leveren op stijl.",
+    category: "Gerecycled",
+    url: "https://ecoalf.com",
+    founded: "2009",
+    headquarters: "Madrid, Spanje",
+    highlights: ["Upcycling the Oceans met 3.000+ vissers", "450+ stoffen uit gerecyclede materialen", "Because there is no Planet B"],
+  },
+];
