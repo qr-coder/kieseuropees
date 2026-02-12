@@ -29,7 +29,7 @@ const reasons = [
 
 const WhyEuropean = () => {
   return (
-    <section id="waarom" className="py-24 px-6 bg-secondary/50">
+    <section id="waarom" className="py-24 px-6 bg-background">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <p className="font-body text-sm tracking-[0.3em] uppercase text-muted-foreground mb-3">
