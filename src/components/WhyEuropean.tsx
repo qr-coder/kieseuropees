@@ -29,13 +29,13 @@ const reasons = [
 
 const WhyEuropean = () => {
   return (
-    <section id="waarom" className="py-24 px-6 bg-background">
+    <section id="waarom" className="py-24 px-6 bg-primary">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
-          <p className="font-body text-sm tracking-[0.3em] uppercase text-muted-foreground mb-3">
+          <p className="font-body text-sm tracking-[0.3em] uppercase text-primary-foreground/70 mb-3">
             De kracht van Europese mode
           </p>
-          <h2 className="font-heading text-4xl md:text-5xl text-foreground">
+          <h2 className="font-heading text-4xl md:text-5xl text-primary-foreground">
             Waarom <span className="italic">Europees</span> kopen?
           </h2>
         </div>
