@@ -1,31 +1,6 @@
-import { Leaf, Heart, Factory, ShieldCheck } from "lucide-react";
-
-const reasons = [
-  {
-    icon: Leaf,
-    title: "Duurzamer",
-    description:
-      "Europese merken volgen strengere milieuwetgeving en kiezen vaker voor duurzame materialen en productieprocessen.",
-  },
-  {
-    icon: Heart,
-    title: "Eerlijke arbeidsomstandigheden",
-    description:
-      "Productie binnen Europa betekent betere lonen, veilige werkplekken en respect voor werknemersrechten.",
-  },
-  {
-    icon: Factory,
-    title: "Steun lokale economie",
-    description:
-      "Door Europees te kopen investeer je in banen en ambachten dicht bij huis. Je geld blijft in onze economie.",
-  },
-  {
-    icon: ShieldCheck,
-    title: "Hogere kwaliteit",
-    description:
-      "Europese mode staat bekend om vakmanschap en kwaliteit. Kleding die langer meegaat is de beste duurzame keuze.",
-  },
-];
+import { Link } from "react-router-dom";
+import { reasons } from "@/data/reasons";
+import { ArrowRight } from "lucide-react";
 
 const WhyEuropean = () => {
   return (
@@ -42,22 +17,26 @@ const WhyEuropean = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {reasons.map((reason) => (
-            <div
-              key={reason.title}
-              className="flex gap-5 p-6 rounded-lg bg-background border border-border"
+            <Link
+              key={reason.slug}
+              to={`/waarom/${reason.slug}`}
+              className="group flex gap-5 p-6 rounded-lg bg-background border border-border hover:border-primary/30 hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
             >
               <div className="flex-shrink-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
                 <reason.icon className="w-5 h-5 text-primary" />
               </div>
-              <div>
-                <h3 className="font-heading text-xl text-foreground mb-2">
+              <div className="flex-1">
+                <h3 className="font-heading text-xl text-foreground mb-2 group-hover:text-primary transition-colors">
                   {reason.title}
                 </h3>
-                <p className="font-body text-sm text-muted-foreground leading-relaxed">
+                <p className="font-body text-sm text-muted-foreground leading-relaxed mb-3">
                   {reason.description}
                 </p>
+                <span className="inline-flex items-center gap-1 font-body text-xs tracking-wider uppercase text-primary">
+                  Lees meer <ArrowRight className="w-3 h-3" />
+                </span>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
