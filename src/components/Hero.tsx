@@ -45,7 +45,7 @@ const Hero = () => {
             <Button
               variant="outline"
               size="lg"
-              className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 font-body text-base px-8 py-6 tracking-wide"
+              className="border-primary-foreground/70 text-foreground hover:bg-primary-foreground/70 font-body text-base px-8 py-6 tracking-wide"
               onClick={() =>
                 document
                   .getElementById("waarom")
