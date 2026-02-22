@@ -14,6 +14,25 @@ import vejaImg from "@/assets/brands/veja.jpg";
 import filippaImg from "@/assets/brands/filippa-k.jpg";
 import mudImg from "@/assets/brands/mud-jeans.jpg";
 import ecoalfImg from "@/assets/brands/ecoalf.jpg";
+import armedangelsImg from "@/assets/brands/armedangels.jpg";
+import kuyichiImg from "@/assets/brands/kuyichi.jpg";
+import koiImg from "@/assets/brands/kings-of-indigo.jpg";
+import organicBasicsImg from "@/assets/brands/organic-basics.jpg";
+import nazImg from "@/assets/brands/naz.jpg";
+import colorfulStandardImg from "@/assets/brands/colorful-standard.jpg";
+import thinkingMuImg from "@/assets/brands/thinking-mu.jpg";
+import janNJuneImg from "@/assets/brands/jan-n-june.jpg";
+import twoThirdsImg from "@/assets/brands/twothirds.jpg";
+import dedicatedImg from "@/assets/brands/dedicated.jpg";
+import laniusImg from "@/assets/brands/lanius.jpg";
+import knowledgeCottonImg from "@/assets/brands/knowledgecotton.jpg";
+import skfkImg from "@/assets/brands/skfk.jpg";
+import tropicfeelImg from "@/assets/brands/tropicfeel.jpg";
+import skotImg from "@/assets/brands/skot-fashion.jpg";
+import ironRootsImg from "@/assets/brands/iron-roots.jpg";
+import anekdotImg from "@/assets/brands/anekdot.jpg";
+import bastetNoirImg from "@/assets/brands/bastet-noir.jpg";
+import yesFriendsImg from "@/assets/brands/yes-friends.jpg";
 
 const brandImages: Record<string, string> = {
   cos: cosImg,
@@ -25,6 +44,25 @@ const brandImages: Record<string, string> = {
   "filippa-k": filippaImg,
   "mud-jeans": mudImg,
   ecoalf: ecoalfImg,
+  armedangels: armedangelsImg,
+  kuyichi: kuyichiImg,
+  "kings-of-indigo": koiImg,
+  "organic-basics": organicBasicsImg,
+  naz: nazImg,
+  "colorful-standard": colorfulStandardImg,
+  "thinking-mu": thinkingMuImg,
+  "jan-n-june": janNJuneImg,
+  twothirds: twoThirdsImg,
+  dedicated: dedicatedImg,
+  lanius: laniusImg,
+  knowledgecotton: knowledgeCottonImg,
+  skfk: skfkImg,
+  tropicfeel: tropicfeelImg,
+  "skot-fashion": skotImg,
+  "iron-roots": ironRootsImg,
+  anekdot: anekdotImg,
+  "bastet-noir": bastetNoirImg,
+  "yes-friends": yesFriendsImg,
 };
 
 const BrandPage = () => {
