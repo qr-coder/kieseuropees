@@ -73,7 +73,7 @@ export const brands: Brand[] = [
     description: "Anekdot is een Berlijns merk dat lingerie en badmode maakt van upcycled reststoffen uit de mode-industrie. Elk stuk is uniek omdat het gemaakt is van stoffen die anders op de afvalhoop zouden belanden, wat resulteert in kleurrijke, one-of-a-kind ontwerpen.",
     longDescription: "Anekdot werd opgericht in Berlijn met een radicaal concept: lingerie en badmode maken van reststoffen die overblijven bij grote modehuizen. Deze deadstock-stoffen — vaak van premium kwaliteit maar in te kleine hoeveelheden voor massaproductie — krijgen bij Anekdot een tweede leven.\n\nOmdat elk stuk gemaakt is van reststoffen, is elke Anekdot-creatie uniek. De combinatie van verschillende stoffen en kleuren resulteert in speelse, kleurrijke ontwerpen die niet te vinden zijn bij andere merken. Deze aanpak voorkomt niet alleen textielafval maar creëert ook exclusiviteit.\n\nAnekdot produceert lokaal in Berlijn, waar een klein team van vakmensen elk stuk met de hand maakt. Het merk toont aan dat upcycling niet alleen goed is voor het milieu, maar ook kan leiden tot producten die mooier en unieker zijn dan conventioneel geproduceerde alternatieven.",
     category: "Upcycled",
-    url: "https://anekdot.com",
+    url: "https://www.awin1.com/cread.php?awinmid=24072&awinaffid=2778796&ued=https%3A%2F%2Fwww.shoplikeyougiveadamn.nl%2Fmerken%2Fanekdot%2Fb-1680",
     founded: "2016",
     headquarters: "Berlijn, Duitsland",
     highlights: ["Lingerie van upcycled reststoffen", "Elk stuk is uniek", "Lokale productie in Berlijn"],
