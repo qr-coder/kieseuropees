@@ -5,9 +5,6 @@ import Footer from "@/components/Footer";
 import { ArrowLeft, ExternalLink, MapPin, Calendar, Building2, CheckCircle2 } from "lucide-react";
 
 // Image imports
-import cosImg from "@/assets/brands/cos.jpg";
-import arketImg from "@/assets/brands/arket.jpg";
-import apcImg from "@/assets/brands/apc.jpg";
 import stanleyImg from "@/assets/brands/stanley-stella.jpg";
 import sandqvistImg from "@/assets/brands/sandqvist.jpg";
 import vejaImg from "@/assets/brands/veja.jpg";
@@ -37,9 +34,6 @@ import nudieJeansImg from "@/assets/brands/nudie-jeans.jpg";
 import maiumImg from "@/assets/brands/maium.jpg";
 
 const brandImages: Record<string, string> = {
-  cos: cosImg,
-  arket: arketImg,
-  apc: apcImg,
   "stanley-stella": stanleyImg,
   sandqvist: sandqvistImg,
   veja: vejaImg,
