@@ -151,7 +151,7 @@ export const brands: Brand[] = [
     description: "Kuyichi is een Nederlands denimmerk dat al sinds 2001 pioniert in duurzame jeans. Het merk gebruikt biologisch katoen en gerecyclede vezels en was een van de eerste ter wereld die volledig transparant was over hun productieketen. Elke Kuyichi-jeans vertelt het verhaal van eerlijke mode.",
     longDescription: "Kuyichi werd in 2001 opgericht vanuit de overtuiging dat de denim-industrie fundamenteel moest veranderen. Als een van de eerste duurzame denimmerken ter wereld legde Kuyichi de basis voor wat nu een groeiende beweging is in de mode-industrie.\n\nHet merk werkt uitsluitend met biologisch katoen en gerecyclede vezels, en investeert continu in innovatieve bewerkingsprocessen die het waterverbruik drastisch verminderen. Waar een conventionele jeans tot 10.000 liter water kan kosten, streeft Kuyichi ernaar dit te halveren door lasertechnologie en ozon-wasprocessen te gebruiken.\n\nKuyichi is ook een van de oprichters van de Organic Cotton Accelerator, een initiatief dat biologische katoenboeren ondersteunt met eerlijke prijzen en betere landbouwpraktijken. Het merk bewijst dat Nederlandse nuchterheid en duurzame ambitie perfect samengaan.",
     category: "Denim",
-    url: "https://kuyichi.com",
+    url: "https://www.awin1.com/cread.php?awinmid=24072&awinaffid=2778796&ued=https%3A%2F%2Fwww.shoplikeyougiveadamn.nl%2Fmerken%2Fkuyichi%2Fb-1666",
     founded: "2001",
     headquarters: "Amsterdam, Nederland",
     highlights: ["Pionier in duurzame denim sinds 2001", "Mede-oprichter Organic Cotton Accelerator", "Waterbesparende productieprocessen"],
