@@ -294,7 +294,7 @@ export const brands: Brand[] = [
     description: "SKFK is een Baskisch modemerk dat kleurrijke, eigenzinnige vrouwenmode ontwerpt met een sterke toewijding aan duurzaamheid. Het merk produceert lokaal in het Baskenland en Europa, gebruikt gecertificeerde duurzame stoffen en staat bekend om hun gedurfde prints en patronen.",
     longDescription: "SKFK (Skunkfunk) werd in 1998 opgericht in het Baskenland, in het noorden van Spanje. Het merk combineert de creatieve energie van de Baskische cultuur met een progressieve visie op duurzame mode. SKFK ontwerpt voor vrouwen die hun eigen stijl durven te omarmen.\n\nHet merk heeft een ambitieus duurzaamheidsprogramma: meer dan 90% van hun collectie is gemaakt van duurzame materialen zoals biologisch katoen, TENCEL™ en gerecycled polyester. SKFK produceert voornamelijk lokaal in het Baskenland en Portugal, wat de transportafstand minimaliseert en de lokale economie ondersteunt.\n\nSKFK onderscheidt zich door hun unieke ontwerpstijl: kleurrijke prints, onverwachte kleurcombinaties en speelse vormen die een alternatief bieden voor de mainstream mode. Het merk organiseert ook workshops en evenementen om bewustzijn te creëren over duurzame mode.",
     category: "Kleurrijk",
-    url: "https://www.skfrk.com",
+    url: "https://www.awin1.com/cread.php?awinmid=24072&awinaffid=2778796&ued=https%3A%2F%2Fwww.shoplikeyougiveadamn.nl%2Fmerken%2Fskfk%2Fb-2034",
     founded: "1998",
     headquarters: "Baskenland, Spanje",
     highlights: ["90%+ duurzame materialen", "Lokale productie in Baskenland", "Unieke kleurrijke printdesigns"],
