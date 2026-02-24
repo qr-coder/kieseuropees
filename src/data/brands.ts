@@ -60,7 +60,7 @@ export const brands: Brand[] = [
     description: "Maium is een Nederlands regenkledingmerk dat stijlvolle, functionele regenjassen maakt van gerecyclede PET-flessen. Het merk combineert Dutch design met duurzame innovatie en biedt waterdichte jassen die zowel op de fiets als in de stad perfect functioneren.",
     longDescription: "Maium werd opgericht in Amsterdam, een stad waar regen een dagelijkse realiteit is. De oprichters merkten dat de meeste regenjassen óf functioneel maar lelijk waren, óf stijlvol maar niet echt waterdicht. Maium besloot beide werelden te verenigen.\n\nElke Maium-regenjas is gemaakt van gerecyclede PET-flessen die worden getransformeerd tot hoogwaardig, waterdicht materiaal. De jassen zijn ontworpen met de Nederlandse fietscultuur in gedachten: langere achterpanden die bescherming bieden op de fiets, reflecterende details voor zichtbaarheid en ventilatie om oververhitting te voorkomen.\n\nHet merk biedt een compact maar doordacht assortiment van regenjassen voor mannen en vrouwen, van klassieke regencoats tot moderne parkas. Maium bewijst dat functionele regenkleding ook een fashion-statement kan zijn, en dat Nederlands pragmatisme en duurzaamheid hand in hand gaan.",
     category: "Regenkleding",
-    url: "https://www.maium.com",
+    url: "https://www.awin1.com/cread.php?awinmid=24072&awinaffid=2778796&ued=https%3A%2F%2Fwww.shoplikeyougiveadamn.nl%2Fmerken%2Fmaium%2Fb-862",
     founded: "2016",
     headquarters: "Amsterdam, Nederland",
     highlights: ["Regenjassen van gerecyclede PET-flessen", "Ontworpen voor de Nederlandse fietscultuur", "Stijlvol én waterdicht Dutch design"],
