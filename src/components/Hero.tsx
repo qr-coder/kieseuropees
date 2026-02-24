@@ -39,7 +39,7 @@ const Hero = () => {
         <img
           src={heroImage}
           alt="Europese mode op straat"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-top"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-foreground/80 via-foreground/50 to-transparent" />
       </div>
