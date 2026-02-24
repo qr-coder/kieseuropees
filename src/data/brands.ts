@@ -125,7 +125,7 @@ export const brands: Brand[] = [
     description: "Kings of Indigo (K.O.I.) is een Nederlands denimmerk opgericht door voormalig G-Star ontwerper Tony Tonnaer. Het merk combineert premium denim design met een sterke duurzaamheidsmissie, waarbij ze innovatieve materialen zoals gerecycled denim en hennep gebruiken om stijlvolle jeans te maken met minimale milieuimpact.",
     longDescription: "Kings of Indigo werd in 2011 opgericht door Tony Tonnaer, die na jaren bij G-Star besloot dat het tijd was voor een denimmerk dat duurzaamheid niet als marketing maar als kernwaarde hanteert. De naam verwijst naar de indigoplant, de oorspronkelijke bron van het iconische blauwe denimkleur.\n\nHet merk gebruikt een breed scala aan innovatieve materialen: van gerecycled denim en biologisch katoen tot hennep en TENCEL™. K.O.I. was een van de eerste merken die jeans maakte van post-consumer gerecycled denim, waarbij oude jeans worden vermalen en geweven tot nieuwe stof.\n\nKings of Indigo hanteert het principe 'Transform the Ordinary' — het geloof dat alledaagse kleding buitengewoon kan zijn in kwaliteit en impact. Het merk publiceert gedetailleerde informatie over elke fabriek waarmee ze werken en streeft naar volledige circulariteit in hun productieproces.",
     category: "Denim",
-    url: "https://www.kingsofindigo.com",
+    url: "https://www.awin1.com/cread.php?awinmid=24072&awinaffid=2778796&ued=https%3A%2F%2Fwww.shoplikeyougiveadamn.nl%2Fmerken%2Fmaium%2Fb-862",
     founded: "2011",
     headquarters: "Amsterdam, Nederland",
     highlights: ["Opgericht door voormalig G-Star ontwerper", "Post-consumer gerecycled denim", "Volledige fabriekstransparantie"],
