@@ -10,7 +10,22 @@ export interface Brand {
   founded: string;
   headquarters: string;
   highlights: string[];
+  clothingTypes: string[];
 }
+
+export const clothingTypeOptions = [
+  "T-shirts",
+  "Truien & Sweaters",
+  "Broeken & Jeans",
+  "Jassen",
+  "Overhemden",
+  "Jurken",
+  "Schoenen",
+  "Sportkleding",
+  "Zwemkleding",
+  "Ondergoed",
+  "Tassen & Accessoires",
+] as const;
 
 export const brands: Brand[] = [
   {
@@ -25,6 +40,7 @@ export const brands: Brand[] = [
     founded: "2007",
     headquarters: "Keulen, Duitsland",
     highlights: ["Fair Wear Foundation lid", "90%+ duurzame materialen", "Transparant jaarlijks duurzaamheidsrapport"],
+    clothingTypes: ["T-shirts", "Truien & Sweaters", "Broeken & Jeans", "Jassen"],
   },
   {
     name: "Kuyichi",
@@ -38,6 +54,7 @@ export const brands: Brand[] = [
     founded: "2001",
     headquarters: "Amsterdam, Nederland",
     highlights: ["Pionier in duurzame denim sinds 2001", "Mede-oprichter Organic Cotton Accelerator", "Waterbesparende productieprocessen"],
+    clothingTypes: ["Broeken & Jeans"],
   },
   {
     name: "SKFK",
@@ -51,6 +68,7 @@ export const brands: Brand[] = [
     founded: "1998",
     headquarters: "Baskenland, Spanje",
     highlights: ["90%+ duurzame materialen", "Lokale productie in Baskenland", "Unieke kleurrijke printdesigns"],
+    clothingTypes: ["T-shirts", "Truien & Sweaters", "Broeken & Jeans", "Jurken"],
   },
   {
     name: "Maium",
@@ -64,6 +82,7 @@ export const brands: Brand[] = [
     founded: "2016",
     headquarters: "Amsterdam, Nederland",
     highlights: ["Regenjassen van gerecyclede PET-flessen", "Ontworpen voor de Nederlandse fietscultuur", "Stijlvol én waterdicht Dutch design"],
+    clothingTypes: ["Jassen"],
   },
   {
     name: "Anekdot",
@@ -77,6 +96,7 @@ export const brands: Brand[] = [
     founded: "2016",
     headquarters: "Berlijn, Duitsland",
     highlights: ["Lingerie van upcycled reststoffen", "Elk stuk is uniek", "Lokale productie in Berlijn"],
+    clothingTypes: ["Zwemkleding", "Ondergoed"],
   },
   {
     name: "MUD Jeans",
@@ -90,6 +110,7 @@ export const brands: Brand[] = [
     founded: "2013",
     headquarters: "Laren, Nederland",
     highlights: ["Lease A Jeans circulair programma", "3.000 liter waterbesparing per jeans", "B Corp-gecertificeerd"],
+    clothingTypes: ["Broeken & Jeans"],
   },
   {
     name: "Ecoalf",
@@ -103,6 +124,7 @@ export const brands: Brand[] = [
     founded: "2009",
     headquarters: "Madrid, Spanje",
     highlights: ["Upcycling the Oceans met 3.000+ vissers", "450+ stoffen uit gerecyclede materialen", "Because there is no Planet B"],
+    clothingTypes: ["T-shirts", "Truien & Sweaters", "Jassen", "Broeken & Jeans", "Schoenen"],
   },
   {
     name: "Veja",
@@ -116,6 +138,7 @@ export const brands: Brand[] = [
     founded: "2004",
     headquarters: "Parijs, Frankrijk",
     highlights: ["Nul euro aan reclame-uitgaven", "Wild rubber uit het Amazonegebied", "5-7x hogere productiekosten dan conventioneel"],
+    clothingTypes: ["Schoenen"],
   },
   {
     name: "Kings of Indigo",
@@ -129,6 +152,7 @@ export const brands: Brand[] = [
     founded: "2011",
     headquarters: "Amsterdam, Nederland",
     highlights: ["Opgericht door voormalig G-Star ontwerper", "Post-consumer gerecycled denim", "Volledige fabriekstransparantie"],
+    clothingTypes: ["Broeken & Jeans", "T-shirts"],
   },
   {
     name: "Organic Basics",
@@ -142,6 +166,7 @@ export const brands: Brand[] = [
     founded: "2015",
     headquarters: "Kopenhagen, Denemarken",
     highlights: ["SilverTech™ antibacteriële technologie", "Low-impact website design", "Eigen duurzaamheidsfonds"],
+    clothingTypes: ["T-shirts", "Ondergoed", "Sportkleding"],
   },
   {
     name: "Näz",
@@ -155,6 +180,7 @@ export const brands: Brand[] = [
     founded: "2019",
     headquarters: "Porto, Portugal",
     highlights: ["On-demand productie tegen overproductie", "100% lokale Portugese productie", "Transparante prijsopbouw"],
+    clothingTypes: ["T-shirts", "Truien & Sweaters", "Broeken & Jeans", "Jurken"],
   },
   {
     name: "Colorful Standard",
@@ -168,6 +194,7 @@ export const brands: Brand[] = [
     founded: "2017",
     headquarters: "Kopenhagen, Denemarken",
     highlights: ["50+ kleuren per seizoen", "GOTS-gecertificeerd biologisch katoen", "Productie op hernieuwbare energie"],
+    clothingTypes: ["T-shirts", "Truien & Sweaters"],
   },
   {
     name: "Thinking MU",
@@ -181,6 +208,7 @@ export const brands: Brand[] = [
     founded: "2006",
     headquarters: "Barcelona, Spanje",
     highlights: ["Samenwerkingen met internationale kunstenaars", "'Trash' collectie van gerecycled afval", "Creatieve prints op duurzame stoffen"],
+    clothingTypes: ["T-shirts", "Truien & Sweaters", "Broeken & Jeans"],
   },
   {
     name: "Jan 'n June",
@@ -194,6 +222,7 @@ export const brands: Brand[] = [
     founded: "2014",
     headquarters: "Hamburg, Duitsland",
     highlights: ["Productie in Europese familieateliers", "GOTS-gecertificeerde materialen", "Closing the Loop recyclingprogramma"],
+    clothingTypes: ["T-shirts", "Truien & Sweaters", "Broeken & Jeans", "Jurken"],
   },
   {
     name: "TwoThirds",
@@ -207,6 +236,7 @@ export const brands: Brand[] = [
     founded: "2010",
     headquarters: "Barcelona, Spanje",
     highlights: ["Oceaan-geïnspireerd design", "Donaties aan oceaanbeschermingsprojecten", "Europese productie in Portugal en Spanje"],
+    clothingTypes: ["T-shirts", "Truien & Sweaters", "Zwemkleding"],
   },
   {
     name: "Dedicated",
@@ -220,6 +250,7 @@ export const brands: Brand[] = [
     founded: "2006",
     headquarters: "Borås, Zweden",
     highlights: ["GOTS-gecertificeerd biologisch katoen", "Creatieve samenwerkingen met kunstenaars", "Fair Wear Foundation lid"],
+    clothingTypes: ["T-shirts", "Truien & Sweaters"],
   },
   {
     name: "Lanius",
@@ -233,6 +264,7 @@ export const brands: Brand[] = [
     founded: "1999",
     headquarters: "Keulen, Duitsland",
     highlights: ["25+ jaar duurzame mode-ervaring", "GOTS en Grüner Knopf gecertificeerd", "Exclusieve Europese productie"],
+    clothingTypes: ["T-shirts", "Truien & Sweaters", "Broeken & Jeans", "Jurken"],
   },
   {
     name: "KnowledgeCotton Apparel",
@@ -246,6 +278,7 @@ export const brands: Brand[] = [
     founded: "1969",
     headquarters: "Herning, Denemarken",
     highlights: ["Drie generaties familiebedrijf", "B Corp en Climate Neutral gecertificeerd", "Pionier in GOTS-gecertificeerd katoen"],
+    clothingTypes: ["T-shirts", "Truien & Sweaters", "Jassen", "Broeken & Jeans"],
   },
   {
     name: "Sandqvist",
@@ -259,6 +292,7 @@ export const brands: Brand[] = [
     founded: "2004",
     headquarters: "Stockholm, Zweden",
     highlights: ["80%+ collectie van duurzame materialen", "CO2-neutrale productie", "Reparatieservice voor langere levensduur"],
+    clothingTypes: ["Tassen & Accessoires"],
   },
   {
     name: "Tropicfeel",
@@ -272,6 +306,7 @@ export const brands: Brand[] = [
     founded: "2018",
     headquarters: "Barcelona, Spanje",
     highlights: ["Recordbrekende crowdfundingcampagne", "B Corp-gecertificeerd", "Modulaire all-in-one reisschoenen"],
+    clothingTypes: ["Schoenen"],
   },
   {
     name: "SKOT Fashion",
@@ -285,6 +320,7 @@ export const brands: Brand[] = [
     founded: "2016",
     headquarters: "Nederland",
     highlights: ["Gespecialiseerd in duurzame overhemden", "GOTS-gecertificeerde productie", "Transparante productieketen"],
+    clothingTypes: ["Overhemden"],
   },
   {
     name: "Iron Roots",
@@ -298,6 +334,7 @@ export const brands: Brand[] = [
     founded: "2018",
     headquarters: "Nederland",
     highlights: ["Activewear van natuurlijke materialen", "Geen synthetische stoffen of microplastics", "Europese productie in Portugal"],
+    clothingTypes: ["Sportkleding", "T-shirts"],
   },
   {
     name: "Stanley/Stella",
@@ -311,6 +348,7 @@ export const brands: Brand[] = [
     founded: "2012",
     headquarters: "Brussel, België",
     highlights: ["GOTS-gecertificeerde productie", "Jaarlijks transparant duurzaamheidsrapport", "Favoriet bij creatieve studio's"],
+    clothingTypes: ["T-shirts", "Truien & Sweaters"],
   },
   {
     name: "BASTET NOIR",
@@ -324,6 +362,7 @@ export const brands: Brand[] = [
     founded: "2017",
     headquarters: "Skopje, Noord-Macedonië",
     highlights: ["100% made-to-order productie", "Handgemaakt door lokale vakvrouwen", "Zero-waste productiemodel"],
+    clothingTypes: ["Jurken"],
   },
   {
     name: "Yes Friends",
@@ -337,6 +376,7 @@ export const brands: Brand[] = [
     founded: "2018",
     headquarters: "Nederland",
     highlights: ["Radicale prijstransparantie", "Eerlijke lonen in de hele keten", "Compact assortiment van hoogwaardige basics"],
+    clothingTypes: ["T-shirts", "Truien & Sweaters"],
   },
   {
     name: "AmisAmour",
@@ -350,6 +390,7 @@ export const brands: Brand[] = [
     founded: "2024",
     headquarters: "Nederland",
     highlights: ["Matching family outfits voor het hele gezin", "Diversiteit en inclusiviteit als kernwaarden", "Hoogwaardige comfortabele materialen"],
+    clothingTypes: ["T-shirts", "Truien & Sweaters"],
   },
   {
     name: "Filippa K",
@@ -363,5 +404,6 @@ export const brands: Brand[] = [
     founded: "1993",
     headquarters: "Stockholm, Zweden",
     highlights: ["Preowned-platform en lease-opties", "'Style over fashion' filosofie", "Ambitieuze klimaatneutraliteitsdoelen"],
+    clothingTypes: ["T-shirts", "Truien & Sweaters", "Broeken & Jeans", "Jassen", "Jurken"],
   },
 ];

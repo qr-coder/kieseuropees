@@ -1,7 +1,14 @@
+import { useState } from "react";
 import BrandCard from "./BrandCard";
-import { brands } from "@/data/brands";
+import { brands, clothingTypeOptions } from "@/data/brands";
 
 const BrandsSection = () => {
+  const [activeFilter, setActiveFilter] = useState<string | null>(null);
+
+  const filteredBrands = activeFilter
+    ? brands.filter((brand) => brand.clothingTypes.includes(activeFilter))
+    : brands;
+
   return (
     <section id="merken" className="py-24 px-6">
       <div className="container mx-auto max-w-6xl">
@@ -17,11 +24,44 @@ const BrandsSection = () => {
           </p>
         </div>
 
+        {/* Filter buttons */}
+        <div className="flex flex-wrap justify-center gap-2 mb-10">
+          <button
+            onClick={() => setActiveFilter(null)}
+            className={`font-body text-sm px-4 py-2 rounded-full border transition-all duration-200 ${
+              activeFilter === null
+                ? "bg-primary text-primary-foreground border-primary"
+                : "bg-transparent text-muted-foreground border-border hover:border-primary/50 hover:text-foreground"
+            }`}
+          >
+            Alles
+          </button>
+          {clothingTypeOptions.map((type) => (
+            <button
+              key={type}
+              onClick={() => setActiveFilter(activeFilter === type ? null : type)}
+              className={`font-body text-sm px-4 py-2 rounded-full border transition-all duration-200 ${
+                activeFilter === type
+                  ? "bg-primary text-primary-foreground border-primary"
+                  : "bg-transparent text-muted-foreground border-border hover:border-primary/50 hover:text-foreground"
+              }`}
+            >
+              {type}
+            </button>
+          ))}
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {brands.map((brand) => (
+          {filteredBrands.map((brand) => (
             <BrandCard key={brand.name} {...brand} />
           ))}
         </div>
+
+        {filteredBrands.length === 0 && (
+          <p className="text-center text-muted-foreground font-body mt-8">
+            Geen merken gevonden voor dit type kleding.
+          </p>
+        )}
       </div>
     </section>
   );
