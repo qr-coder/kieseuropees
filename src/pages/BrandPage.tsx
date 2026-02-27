@@ -30,7 +30,7 @@ import ironRootsImg from "@/assets/brands/iron-roots.jpg";
 import anekdotImg from "@/assets/brands/anekdot.jpg";
 import bastetNoirImg from "@/assets/brands/bastet-noir.jpg";
 import yesFriendsImg from "@/assets/brands/yes-friends.jpg";
-import nudieJeansImg from "@/assets/brands/nudie-jeans.jpg";
+import amisamourImg from "@/assets/brands/amisamour.jpg";
 import maiumImg from "@/assets/brands/maium.jpg";
 
 const brandImages: Record<string, string> = {
@@ -59,7 +59,7 @@ const brandImages: Record<string, string> = {
   anekdot: anekdotImg,
   "bastet-noir": bastetNoirImg,
   "yes-friends": yesFriendsImg,
-  "nudie-jeans": nudieJeansImg,
+  amisamour: amisamourImg,
   maium: maiumImg,
 };
 
