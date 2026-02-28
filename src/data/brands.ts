@@ -217,7 +217,7 @@ export const brands: Brand[] = [
     description: "Thinking MU is een creatief Spaans modemerk uit Barcelona dat duurzaamheid combineert met artistieke prints en een speelse stijl. Het merk gebruikt biologisch katoen, hennep en gerecyclede materialen en werkt samen met kunstenaars wereldwijd voor hun iconische printdesigns.",
     longDescription: "Thinking MU werd in 2006 opgericht in Barcelona door een groep vrienden die geloofden dat mode zowel creatief als verantwoord kan zijn. Het merk onderscheidt zich door hun unieke samenwerking met kunstenaars en illustratoren die originele prints ontwerpen voor elke collectie.\n\nDuurzaamheid zit in het DNA van Thinking MU. Het merk gebruikt biologisch katoen, hennep, TENCEL™ en gerecyclede materialen voor al hun producten. Hun 'Trash' collectie is volledig gemaakt van gerecyclede PET-flessen en afgedankt textiel, wat afval transformeert tot draagbare kunst.\n\nVanuit hun atelier in Barcelona ontwerpt het team collecties die de grenzen opzoeken tussen mode en kunst. Elke seizoenscollectie vertelt een verhaal, vaak geïnspireerd door natuur, muziek en stadscultuur. Thinking MU bewijst dat duurzame mode allesbehalve saai hoeft te zijn.",
     category: "Creatief",
-    url: "https://www.thinkingmu.com",
+    url: "https://www.awin1.com/cread.php?awinmid=24072&awinaffid=2778796&ued=https%3A%2F%2Fwww.shoplikeyougiveadamn.nl%2Fmerken%2Fthinking-mu%2Fb-455",
     homepageUrl: "https://www.thinkingmu.com",
     founded: "2006",
     headquarters: "Barcelona, Spanje",
