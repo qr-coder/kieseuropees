@@ -11,7 +11,7 @@ interface BrandCardProps {
   flag: string;
 }
 
-const BrandCard = ({ name, slug, country, description, category, flag }: BrandCardProps) => {
+const BrandCard = ({ name, slug, country, description, category, url, flag }: BrandCardProps) => {
   return (
     <Link
       to={`/merk/${slug}`}
@@ -29,14 +29,25 @@ const BrandCard = ({ name, slug, country, description, category, flag }: BrandCa
             </span>
           </div>
         </div>
-        <ExternalLink className="w-4 h-4 text-muted-foreground group-hover:text-primary transition-colors mt-1" />
       </div>
       <p className="font-body text-sm text-muted-foreground leading-relaxed mb-4 line-clamp-3">
         {description}
       </p>
-      <span className="inline-block font-body text-xs tracking-wider uppercase bg-secondary text-secondary-foreground px-3 py-1 rounded-full">
-        {category}
-      </span>
+      <div className="flex items-end justify-between">
+        <span className="inline-block font-body text-xs tracking-wider uppercase bg-secondary text-secondary-foreground px-3 py-1 rounded-full">
+          {category}
+        </span>
+        <a
+          href={url}
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={(e) => e.stopPropagation()}
+          className="inline-flex items-center gap-1.5 bg-primary text-primary-foreground font-body text-xs tracking-wider uppercase px-4 py-2 rounded-lg hover:bg-primary/90 transition-colors"
+        >
+          Koop {name}
+          <ExternalLink className="w-3.5 h-3.5" />
+        </a>
+      </div>
     </Link>
   );
 };
