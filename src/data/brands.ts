@@ -277,7 +277,7 @@ export const brands: Brand[] = [
     description: "Lanius is een Duits modemerk dat elegante vrouwenmode ontwerpt met een sterk duurzaamheidsprofiel. Het merk gebruikt natuurlijke materialen zoals biologisch katoen, linnen en zijde, en produceert in Europa onder eerlijke arbeidsomstandigheden. Oprichtster Claudia Lanius combineert haar passie voor design met een missie voor verantwoorde mode.",
     longDescription: "Lanius werd in 1999 opgericht door Claudia Lanius in Keulen, lang voordat duurzame mode mainstream werd. Met meer dan 25 jaar ervaring is het merk uitgegroeid tot een van de meest gerespecteerde namen in de Duitse duurzame mode-industrie.\n\nHet merk onderscheidt zich door de combinatie van elegantie en ecologisch bewustzijn. Elke collectie wordt ontworpen met aandacht voor tijdloze silhouetten en hoogwaardige, natuurlijke materialen. Lanius gebruikt biologisch katoen, Europees linnen, verantwoorde zijde en innovatieve stoffen zoals TENCEL™ en EcoVero™.\n\nLanius produceert uitsluitend in Europa — in Duitsland, Portugal en Roemenië — en onderhoudt langdurige relaties met hun productiepartners. Het merk is GOTS-gecertificeerd en draagt het Grüner Knopf-keurmerk, het Duitse overheidscerti ficaat voor duurzaam textiel.",
     category: "Elegant",
-    url: "https://www.lanius.com",
+    url: "https://www.awin1.com/cread.php?awinmid=24072&awinaffid=2778796&ued=https%3A%2F%2Fwww.shoplikeyougiveadamn.nl%2Fmerken%2Flanius%2Fb-816",
     homepageUrl: "https://www.lanius.com",
     founded: "1999",
     headquarters: "Keulen, Duitsland",
