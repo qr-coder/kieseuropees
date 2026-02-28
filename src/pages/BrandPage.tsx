@@ -167,7 +167,7 @@ const BrandPage = () => {
           </div>
 
           {/* CTA */}
-          <div className="text-center">
+          <div className="flex items-center justify-center gap-4">
             <a
               href={brand.url}
               target="_blank"
@@ -175,6 +175,15 @@ const BrandPage = () => {
               className="inline-flex items-center gap-2 bg-primary text-primary-foreground font-body text-sm tracking-wider uppercase px-8 py-4 rounded-lg hover:bg-primary/90 transition-colors"
             >
               Koop {brand.name}
+              <ExternalLink className="w-4 h-4" />
+            </a>
+            <a
+              href={brand.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 border border-border text-muted-foreground font-body text-sm tracking-wider uppercase px-8 py-4 rounded-lg hover:border-primary/50 hover:text-foreground transition-colors"
+            >
+              Bezoek website
               <ExternalLink className="w-4 h-4" />
             </a>
           </div>
