@@ -174,7 +174,7 @@ const BrandPage = () => {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-primary text-primary-foreground font-body text-sm tracking-wider uppercase px-8 py-4 rounded-lg hover:bg-primary/90 transition-colors"
             >
-              Bezoek {brand.name}
+              Koop {brand.name}
               <ExternalLink className="w-4 h-4" />
             </a>
           </div>
