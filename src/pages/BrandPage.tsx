@@ -178,7 +178,7 @@ const BrandPage = () => {
               <ExternalLink className="w-4 h-4" />
             </a>
             <a
-              href={brand.url}
+              href={brand.homepageUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 border border-border text-muted-foreground font-body text-sm tracking-wider uppercase px-8 py-4 rounded-lg hover:border-primary/50 hover:text-foreground transition-colors"
