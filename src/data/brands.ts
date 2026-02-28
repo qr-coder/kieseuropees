@@ -292,7 +292,7 @@ export const brands: Brand[] = [
     description: "KnowledgeCotton Apparel is een Deens merk dat al drie generaties lang staat voor duurzame herenmode. Het merk was een van de eerste ter wereld die GOTS-gecertificeerd biologisch katoen gebruikte en combineert Scandinavisch design met een diep respect voor natuur en vakmanschap.",
     longDescription: "KnowledgeCotton Apparel werd in 1969 opgericht als familiebedrijf in Herning, Denemarken. Wat begon als een traditioneel textielbedrijf transformeerde in de jaren 2000 tot een pionier in duurzame mode toen de derde generatie het roer overnam met een visie voor verantwoorde kleding.\n\nHet merk was een van de eerste ter wereld die volledig overschakelde op GOTS-gecertificeerd biologisch katoen. Vandaag de dag gebruikt KnowledgeCotton een breed scala aan duurzame materialen, waaronder gerecycled polyester, TENCEL™ en verantwoorde wol. Het merk is B Corp-gecertificeerd en Climate Neutral.\n\nKnowledgeCotton's design is geworteld in de Deense natuur en het Scandinavische buitenleven. De collecties zijn functioneel, tijdloos en ontworpen voor mannen die waarde hechten aan kwaliteit boven kwantiteit. Het merk biedt alles van casual basics tot outdoor-geïnspireerde jassen en accessoires.",
     category: "Herenmode",
-    url: "https://www.knowledgecottonapparel.com",
+    url: "https://www.awin1.com/cread.php?awinmid=24072&awinaffid=2778796&ued=https%3A%2F%2Fwww.shoplikeyougiveadamn.nl%2Fmerken%2Fknowledgecotton-apparel%2Fb-5740",
     homepageUrl: "https://www.knowledgecottonapparel.com",
     founded: "1969",
     headquarters: "Herning, Denemarken",
