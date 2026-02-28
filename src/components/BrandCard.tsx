@@ -44,7 +44,7 @@ const BrandCard = ({ name, slug, country, description, category, url, flag }: Br
           onClick={(e) => e.stopPropagation()}
           className="inline-flex items-center gap-1.5 bg-primary text-primary-foreground font-body text-xs tracking-wider uppercase px-4 py-2 rounded-lg hover:bg-primary/90 transition-colors"
         >
-          Koop {name}
+          Koop
           <ExternalLink className="w-3.5 h-3.5" />
         </a>
       </div>
