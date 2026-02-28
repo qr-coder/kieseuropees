@@ -247,7 +247,7 @@ export const brands: Brand[] = [
     description: "TwoThirds is een Spaans lifestyle-merk geïnspireerd door de oceaan — de naam verwijst naar het feit dat tweederde van de aarde bedekt is met water. Het merk maakt duurzame kleding van biologisch katoen en gerecyclede materialen, en doneert een deel van de opbrengst aan oceaanbeschermingsprojecten.",
     longDescription: "TwoThirds werd opgericht in Barcelona met een diep respect voor de oceaan als inspiratiebron en ecosysteem. De naam herinnert ons eraan dat tweederde van onze planeet uit water bestaat en dat we de verantwoordelijkheid hebben om dit te beschermen.\n\nHet merk combineert een ontspannen, oceaan-geïnspireerde stijl met serieuze duurzaamheidsinspanningen. Alle producten zijn gemaakt van biologisch katoen, gerecycled polyester of andere duurzame materialen. TwoThirds werkt met Europese fabrieken in Portugal en Spanje die voldoen aan strenge milieu- en sociale normen.\n\nEen uniek aspect van TwoThirds is hun 'Ocean Initiative': het merk organiseert regelmatig strandopruimacties en doneert een percentage van elke verkoop aan organisaties die zich inzetten voor oceaanbescherming. Zo wordt elke aankoop een bijdrage aan het behoud van onze zeeën.",
     category: "Lifestyle",
-    url: "https://www.twothirds.com",
+    url: "https://www.awin1.com/cread.php?awinmid=24072&awinaffid=2778796&ued=https%3A%2F%2Fwww.shoplikeyougiveadamn.nl%2Fmerken%2Ftwothirds%2Fb-6042",
     homepageUrl: "https://www.twothirds.com",
     founded: "2010",
     headquarters: "Barcelona, Spanje",
