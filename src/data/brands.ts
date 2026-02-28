@@ -262,7 +262,7 @@ export const brands: Brand[] = [
     description: "Dedicated is een Zweeds streetwear-merk dat duurzaamheid combineert met grafische prints en een progressieve boodschap. Het merk gebruikt 100% biologisch katoen en gerecyclede materialen en staat bekend om hun samenwerkingen met kunstenaars, muzikanten en activisten.",
     longDescription: "Dedicated werd in 2006 opgericht in Borås, het centrum van de Zweedse textielindustrie. Het merk begon als een klein grafisch T-shirt label en is uitgegroeid tot een volledig duurzaam streetwear-merk met een trouwe internationale fanbase.\n\nAlle Dedicated-producten zijn gemaakt van GOTS-gecertificeerd biologisch katoen of gerecyclede materialen. Het merk werkt samen met Fair Wear Foundation om eerlijke arbeidsomstandigheden te garanderen in hun productieketen. Hun fabrieken in India en China worden regelmatig geauditeerd en medewerkers verdienen een leefbaar loon.\n\nDedicated staat bekend om hun creatieve samenwerkingen met kunstenaars, merken en organisaties. Van The Simpsons tot Peanuts, en van Bob Marley tot lokale Zweedse illustratoren — elke samenwerking resulteert in unieke prints op duurzame basics. Het merk gebruikt ook hun platform om sociale en ecologische boodschappen te verspreiden.",
     category: "Streetwear",
-    url: "https://www.dedicatedbrand.com",
+    url: "https://www.awin1.com/cread.php?awinmid=24072&awinaffid=2778796&ued=https%3A%2F%2Fwww.shoplikeyougiveadamn.nl%2Fmerken%2Fdedicated%2Fb-552",
     homepageUrl: "https://www.dedicatedbrand.com",
     founded: "2006",
     headquarters: "Borås, Zweden",
