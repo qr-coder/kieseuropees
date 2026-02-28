@@ -232,7 +232,7 @@ export const brands: Brand[] = [
     description: "Jan 'n June is een Duits modemerk uit Hamburg dat eigentijdse vrouwenmode ontwerpt met een sterke focus op transparantie en duurzaamheid. Het merk produceert in Europa met GOTS-gecertificeerde materialen en biedt een eerlijke prijs voor stijlvolle, bewuste mode.",
     longDescription: "Jan 'n June werd in 2014 opgericht door Anna Bronowski en Jula Holtzheimer in Hamburg. De twee ontwerpsters wilden bewijzen dat duurzame mode net zo trendy en betaalbaar kan zijn als fast fashion, zonder de bijbehorende sociale en ecologische kosten.\n\nHet merk produceert uitsluitend in Europa — voornamelijk in Polen en Portugal — waar ze nauw samenwerken met familiedrijven ateliers die eerlijke lonen betalen. Alle stoffen zijn GOTS-gecertificeerd of gemaakt van gerecyclede materialen zoals EcoVero™ en gerecycled polyester.\n\nJan 'n June onderscheidt zich door hun transparante communicatie: op hun website delen ze gedetailleerde informatie over elke fabriek, inclusief foto's en verhalen van de medewerkers. Het merk biedt ook een 'Closing the Loop'-programma waarbij klanten gedragen items kunnen terugsturen voor recycling.",
     category: "Damesmode",
-    url: "https://jannjune.com",
+    url: "https://www.awin1.com/cread.php?awinmid=24072&awinaffid=2778796&ued=https%3A%2F%2Fwww.shoplikeyougiveadamn.nl%2Fmerken%2Fjan-n-june%2Fb-171",
     homepageUrl: "https://jannjune.com",
     founded: "2014",
     headquarters: "Hamburg, Duitsland",
