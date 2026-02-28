@@ -187,7 +187,7 @@ export const brands: Brand[] = [
     description: "Näz is een Portugees modemerk dat tijdloze, minimalistische kleding maakt in lokale ateliers. Het merk produceert uitsluitend in Portugal met Europese stoffen en hanteert een on-demand productiemodel om overproductie tegen te gaan. Elke collectie wordt ontworpen om jarenlang gedragen te worden.",
     longDescription: "Näz werd opgericht in Porto met de overtuiging dat mode langzamer en bewuster kan. Het merk kiest bewust voor lokale productie in Portugese ateliers, waar ambachtelijk vakmanschap en eerlijke arbeidsomstandigheden centraal staan.\n\nWat Näz bijzonder maakt is hun on-demand productiemodel: veel items worden pas gemaakt nadat ze besteld zijn, waardoor overproductie en verspilling drastisch worden verminderd. Dit model vereist geduld van de klant, maar garandeert dat elk kledingstuk met zorg wordt gemaakt en niet onverkocht op een afvalhoop belandt.\n\nHet merk gebruikt uitsluitend Europese stoffen van gecertificeerde leveranciers, waaronder biologisch katoen, linnen en TENCEL™. De transparante prijsopbouw laat klanten zien wat ze betalen voor materialen, arbeid en transport — een radicale openheid die vertrouwen schept.",
     category: "Slow Fashion",
-    url: "https://www.naz.pt",
+    url: "https://www.awin1.com/cread.php?awinmid=24072&awinaffid=2778796&ued=https%3A%2F%2Fwww.shoplikeyougiveadamn.nl%2Fmerken%2Fnaz%2Fb-1307",
     homepageUrl: "https://www.naz.pt",
     founded: "2019",
     headquarters: "Porto, Portugal",
