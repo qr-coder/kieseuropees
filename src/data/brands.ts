@@ -337,7 +337,7 @@ export const brands: Brand[] = [
     description: "SKOT Fashion is een Nederlands merk dat duurzame overhemden en business casual kleding maakt voor mannen. Het merk gebruikt biologisch katoen en produceert in GOTS-gecertificeerde fabrieken, waardoor stijlvolle werkkleding ook verantwoord kan zijn.",
     longDescription: "SKOT Fashion werd opgericht in Nederland met de missie om het klassieke overhemd te verduurzamen. Het merk erkende dat veel mannen dagelijks overhemden dragen voor werk, maar dat er weinig echt duurzame opties beschikbaar waren in dit segment.\n\nAlle SKOT Fashion-overhemden zijn gemaakt van GOTS-gecertificeerd biologisch katoen en geproduceerd in fabrieken die voldoen aan de strengste sociale en ecologische normen. Het merk biedt een breed assortiment van klassieke witte overhemden tot casual prints, allemaal ontworpen voor een moderne, comfortabele pasvorm.\n\nSKOT Fashion onderscheidt zich door hun focus op een specifiek segment — het werkhemd — en hun toewijding om dit alledaagse kledingstuk zo duurzaam mogelijk te maken. Het merk is transparant over hun productieketen en deelt informatie over de fabrieken en materialen achter elk product.",
     category: "Werkkleding",
-    url: "https://www.skotfashion.com",
+    url: "https://www.awin1.com/cread.php?awinmid=24072&awinaffid=2778796&ued=https%3A%2F%2Fwww.shoplikeyougiveadamn.nl%2Fmerken%2Fskot%2Fb-1808",
     homepageUrl: "https://www.skotfashion.com",
     founded: "2016",
     headquarters: "Nederland",
