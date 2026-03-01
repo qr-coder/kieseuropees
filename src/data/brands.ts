@@ -427,7 +427,7 @@ export const brands: Brand[] = [
     description: "Iné is een Frans sneakermerk dat unisex veganistische sneakers ontwerpt met een retro-design geïnspireerd op de jaren '90. Opgericht door Audrey Delanoë combineert het merk innovatie en eco-design om een echt duurzaam alternatief te bieden dat de grenzen van de huidige markt verlegt.",
     longDescription: "Iné werd opgericht door Audrey Delanoë, wiens moeder 25 jaar als ambachtsvrouw werkte in een couture-atelier in Rennes. Mode is een passie die van generatie op generatie is doorgegeven, maar Audrey wilde het anders doen — duurzamer en inclusiever.\n\nDe 'Vibes'-sneakers van Iné zijn geïnspireerd op de iconische sneakerdesigns van de jaren '90, met de laid-back spirit van het basketbal- en tennisschoenen-tijdperk. Het retro-design wordt gecombineerd met innovatieve eco-materialen en een uitzonderlijke duurzaamheid die de grenzen van de markt verlegt.\n\nAlle sneakers van Iné zijn 100% veganistisch en unisex. Het merk biedt gratis bezorging en retournering aan, en produceert in Europa met respect voor mens en milieu. Iné bewijst dat de mode-industrie het niet had, dus creëerden zij het zelf.",
     category: "Schoenen",
-    url: "https://ine.fr",
+    url: "https://www.awin1.com/cread.php?awinmid=24072&awinaffid=2778796&ued=https%3A%2F%2Fwww.shoplikeyougiveadamn.nl%2Fmerken%2Fine%2Fb-8095",
     homepageUrl: "https://ine.fr",
     founded: "2021",
     headquarters: "Frankrijk",
