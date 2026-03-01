@@ -28,6 +28,12 @@ import tropicfeelImg from "@/assets/brands/tropicfeel.jpg";
 import skotImg from "@/assets/brands/skot-fashion.jpg";
 import anekdotImg from "@/assets/brands/anekdot.jpg";
 import maiumImg from "@/assets/brands/maium.jpg";
+import arzeImg from "@/assets/brands/arze.jpg";
+import boldwillImg from "@/assets/brands/boldwill.jpg";
+import clotsyImg from "@/assets/brands/clotsy.jpg";
+import flaxAndLoomImg from "@/assets/brands/flax-and-loom.jpg";
+import gotBagImg from "@/assets/brands/got-bag.jpg";
+import ineImg from "@/assets/brands/ine.jpg";
 
 const brandImages: Record<string, string> = {
   
@@ -54,6 +60,12 @@ const brandImages: Record<string, string> = {
   
   anekdot: anekdotImg,
   maium: maiumImg,
+  arze: arzeImg,
+  boldwill: boldwillImg,
+  clotsy: clotsyImg,
+  "flax-and-loom": flaxAndLoomImg,
+  "got-bag": gotBagImg,
+  ine: ineImg,
 };
 
 const BrandPage = () => {
