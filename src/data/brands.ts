@@ -382,7 +382,7 @@ export const brands: Brand[] = [
     description: "Clotsy Brand is een Spaans veganistisch modemerk dat duurzame kleding maakt in lokale familieworkshops. Het merk biedt een breed assortiment van basics tot jurken en schoenen, allemaal geproduceerd met respect voor mens en milieu. Clotsy combineert Spaans design met een sterke duurzaamheidsmissie.",
     longDescription: "Clotsy Brand werd opgericht in Spanje met de visie om veganistische en duurzame mode toegankelijk te maken voor iedereen. Het merk produceert lokaal in familieworkshops met hoogwaardige stoffen, wat zorgt voor korte transportlijnen en steun aan lokale gemeenschappen.\n\nHet assortiment van Clotsy is verrassend breed: van dagelijkse basics en knitwear tot jurken, badmode en zelfs barefoot schoenen. Alle producten worden gemaakt van duurzame materialen en het merk is volledig veganistisch — geen enkel dierlijk product wordt gebruikt.\n\nClotsy Brand heeft erkenning gekregen van toonaangevende mediaplatforms zoals Elle, Vogue, Cosmopolitan en Harper's Bazaar, wat hun positie als serieus duurzaam modemerk bevestigt. Het merk biedt gratis ruilen aan, zodat klanten altijd het perfecte kledingstuk kunnen vinden.",
     category: "Veganistisch",
-    url: "https://www.clotsybrand.com",
+    url: "https://www.awin1.com/cread.php?awinmid=24072&awinaffid=2778796&ued=https%3A%2F%2Fwww.shoplikeyougiveadamn.nl%2Fmerken%2Fclotsy%2Fb-5429",
     homepageUrl: "https://www.clotsybrand.com",
     founded: "2019",
     headquarters: "Spanje",
