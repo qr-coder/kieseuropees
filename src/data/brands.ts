@@ -397,7 +397,7 @@ export const brands: Brand[] = [
     description: "Flax & Loom is een Brits denimmerk opgericht door Phil Wildbore, die 40 jaar ervaring heeft in de denim-industrie. Het merk maakt duurzame jeans, dungarees en jumpsuits van de beste materialen met de vriendelijkste methoden, en zet daarmee een nieuwe standaard voor de bredere denim-industrie.",
     longDescription: "Flax & Loom werd opgericht door Phil Wildbore, die na 40 jaar in de denim-industrie uit eerste hand zag hoe donker de sector kan zijn. Nu woont hij op een bus in een natuurreservaat en ziet hij dagelijks de impact die de industrie heeft op de planeet. Flax & Loom is zijn antwoord op de noodzaak voor verandering.\n\nHet merk maakt jeans, dungarees, pinafores en jumpsuits die duurzaam geproduceerd zijn, transseizoens ontworpen en inclusief in hun maatvoering. De collectie omvat slim en loose fit jeans, skinny jeans, flares en wide leg stijlen, allemaal duurzaam geverfd in klassiek blauw, indigo, zwart en grijs.\n\nFlax & Loom is verkrijgbaar in meer dan 50 winkels wereldwijd en combineert ambachtelijke kwaliteit met een compromisloze toewijding aan duurzaamheid. Het merk legt de lat hoger — niet alleen voor zichzelf, maar voor de hele denim-industrie.",
     category: "Denim",
-    url: "https://flaxandloomuk.com",
+    url: "https://www.awin1.com/cread.php?awinmid=24072&awinaffid=2778796&ued=https%3A%2F%2Fwww.shoplikeyougiveadamn.nl%2Fmerken%2Fflax-and-loom%2Fb-7505",
     homepageUrl: "https://flaxandloomuk.com",
     founded: "2020",
     headquarters: "Verenigd Koninkrijk",
