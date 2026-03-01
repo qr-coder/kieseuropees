@@ -5,10 +5,10 @@ import Footer from "@/components/Footer";
 import { ArrowLeft, ExternalLink, MapPin, Calendar, Building2, CheckCircle2 } from "lucide-react";
 
 // Image imports
-import stanleyImg from "@/assets/brands/stanley-stella.jpg";
+
 import sandqvistImg from "@/assets/brands/sandqvist.jpg";
 import vejaImg from "@/assets/brands/veja.jpg";
-import filippaImg from "@/assets/brands/filippa-k.jpg";
+
 import mudImg from "@/assets/brands/mud-jeans.jpg";
 import ecoalfImg from "@/assets/brands/ecoalf.jpg";
 import armedangelsImg from "@/assets/brands/armedangels.jpg";
@@ -26,18 +26,14 @@ import knowledgeCottonImg from "@/assets/brands/knowledgecotton.jpg";
 import skfkImg from "@/assets/brands/skfk.jpg";
 import tropicfeelImg from "@/assets/brands/tropicfeel.jpg";
 import skotImg from "@/assets/brands/skot-fashion.jpg";
-import ironRootsImg from "@/assets/brands/iron-roots.jpg";
 import anekdotImg from "@/assets/brands/anekdot.jpg";
-import bastetNoirImg from "@/assets/brands/bastet-noir.jpg";
-import yesFriendsImg from "@/assets/brands/yes-friends.jpg";
-import amisamourImg from "@/assets/brands/amisamour.jpg";
 import maiumImg from "@/assets/brands/maium.jpg";
 
 const brandImages: Record<string, string> = {
-  "stanley-stella": stanleyImg,
+  
   sandqvist: sandqvistImg,
   veja: vejaImg,
-  "filippa-k": filippaImg,
+  
   "mud-jeans": mudImg,
   ecoalf: ecoalfImg,
   armedangels: armedangelsImg,
@@ -55,11 +51,8 @@ const brandImages: Record<string, string> = {
   skfk: skfkImg,
   tropicfeel: tropicfeelImg,
   "skot-fashion": skotImg,
-  "iron-roots": ironRootsImg,
+  
   anekdot: anekdotImg,
-  "bastet-noir": bastetNoirImg,
-  "yes-friends": yesFriendsImg,
-  amisamour: amisamourImg,
   maium: maiumImg,
 };
 
