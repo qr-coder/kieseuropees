@@ -367,7 +367,7 @@ export const brands: Brand[] = [
     description: "Boldwill is een Nederlands sportkleding-merk dat duurzame alternatieven biedt voor synthetische activewear. Het merk gebruikt natuurlijke materialen zoals biologisch katoen, TENCEL™ en bio-based elastaan, en produceert in Europa. Boldwill bewijst dat sportkleding gezond kan zijn voor zowel de drager als de planeet.",
     longDescription: "Boldwill, voorheen bekend als Iron Roots, werd opgericht in Nederland met de missie om een gezond en duurzaam alternatief te creëren voor reguliere sportkleding. Het merk vond het vreemd dat sport inherent gezonder maakt, maar dat de sportkleding waarin je traint noch gezond is voor jou noch voor de planeet.\n\nDe collectie van Boldwill varieert van T-shirts van 50% biologisch katoen en 50% TENCEL™ tot leggings en sporttops met innovatieve stoffen zoals bio-based CREORA™ elastaan — een bewuster alternatief voor traditionele spandex. Zelfs de fijnste details, zoals naaidraad en hangtags, weerspiegelen doordachte keuzes.\n\nBoldwill ziet een sterke link tussen sport en natuur: beide draaien om stap-voor-stap vooruitgang. Dit idee — 'Natural Progression' — voedt de ambitie van het merk om continu te verbeteren en betere beslissingen te nemen voor een gezondere planeet.",
     category: "Sportkleding",
-    url: "https://www.boldwill.com",
+    url: "https://www.awin1.com/cread.php?awinmid=24072&awinaffid=2778796&ued=https%3A%2F%2Fwww.shoplikeyougiveadamn.nl%2Fmerken%2Fboldwill%2Fb-7096",
     homepageUrl: "https://www.boldwill.com",
     founded: "2018",
     headquarters: "Den Haag, Nederland",
