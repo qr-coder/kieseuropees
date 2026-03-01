@@ -412,7 +412,7 @@ export const brands: Brand[] = [
     description: "GOT BAG is een Duits merk dat 's werelds eerste rugzak maakte van gerecycled oceaanplastic. Vanuit Mainz werkt het merk samen met duizenden verzamelaars in Indonesië om plastic afval uit de oceaan op te vissen en te transformeren tot hoogwaardige tassen, rugzakken en accessoires.",
     longDescription: "GOT BAG werd in 2016 opgericht door Benjamin Mandos in Mainz, Duitsland. Sinds zijn kindertijd bracht hij veel tijd door aan zee en was hij geschokt door de hoeveelheid plastic die hij daar aantrof. Dit leidde tot het idee om plastic afval uit de zeeën van Zuidoost-Azië te verzamelen, te recyclen en er iets nieuws van te maken.\n\nHet merk ontwikkelde 's werelds eerste roll-top rugzak gemaakt van oceaanplastic. Vandaag verkoopt GOT BAG een complete collectie van rugzakken, tassen, reisbagage, accessoires en zelfs zonnebrillen — allemaal gemaakt van gerecycled oceaanplastic. Het opruimprogramma in Indonesië biedt lokale gemeenschappen een eerlijk inkomen.\n\nGOT BAG heeft één missie: actief vechten tegen de toenemende plasticvervuiling van de oceanen en een bewuster gebruik van natuurlijke hulpbronnen aanmoedigen. Het merk biedt 2 jaar garantie op al hun producten en won de German Design Award 2026.",
     category: "Tassen",
-    url: "https://got-bag.com",
+    url: "https://www.awin1.com/cread.php?awinmid=24072&awinaffid=2778796&ued=https%3A%2F%2Fwww.shoplikeyougiveadamn.nl%2Fmerken%2Fgot-bag%2Fb-1715",
     homepageUrl: "https://got-bag.com",
     founded: "2016",
     headquarters: "Mainz, Duitsland",
