@@ -352,7 +352,7 @@ export const brands: Brand[] = [
     description: "ARZE is een Spaans sneakermerk dat duurzame mode combineert met een passie voor onafhankelijke muziek. Het merk maakt 100% veganistische sneakers in Spanje van bio-based materialen zoals maïs en gerecycled oceaanplastic, en biedt een platform voor opkomende artiesten.",
     longDescription: "ARZE werd in 2022 opgericht door Álvaro Sancristobal in Spanje, voortkomend uit een passie voor zowel onafhankelijke muziek als duurzame mode. Samen met medeoprichters Nunu en Abel groeide het merk uit tot een unieke combinatie van cultuur, muziek en bewuste mode.\n\nDe sneakers van ARZE zijn volledig veganistisch en 'Made in Spain'. De hoofdstof is een bio-based napa gemaakt van maïs en gerecycled oceaanplastic. De zolen bestaan voor 80% uit bio-based materiaal en 20% gerecycled rubber. Zelfs de veters zijn van biologisch katoen en de verpakking is van gerecycled karton.\n\nWat ARZE uniek maakt is hun missie om opkomende muzikanten een platform te bieden. Het merk vormt een gemeenschap van mensen die verenigd zijn door cultuur, muziek en mode. Elke aankoop draagt bij aan het zichtbaar maken van onafhankelijke artiesten.",
     category: "Schoenen",
-    url: "https://arzebrand.com",
+    url: "https://www.awin1.com/cread.php?awinmid=24072&awinaffid=2778796&ued=https%3A%2F%2Fwww.shoplikeyougiveadamn.nl%2Fmerken%2Farze%2Fb-4968",
     homepageUrl: "https://arzebrand.com",
     founded: "2022",
     headquarters: "Spanje",
