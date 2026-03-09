@@ -69,6 +69,7 @@ const brandImages: Record<string, string> = {
   "got-bag": gotBagImg,
   ine: ineImg,
   "filippa-k": filippaKImg,
+  alchemist: alchemistImg,
 };
 
 const BrandPage = () => {
