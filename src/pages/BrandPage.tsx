@@ -67,6 +67,7 @@ const brandImages: Record<string, string> = {
   "flax-and-loom": flaxAndLoomImg,
   "got-bag": gotBagImg,
   ine: ineImg,
+  "filippa-k": filippaKImg,
 };
 
 const BrandPage = () => {
