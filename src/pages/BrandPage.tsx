@@ -36,6 +36,7 @@ import gotBagImg from "@/assets/brands/got-bag.jpg";
 import ineImg from "@/assets/brands/ine.jpg";
 import filippaKImg from "@/assets/brands/filippa-k.jpg";
 import alchemistImg from "@/assets/brands/alchemist.jpg";
+import aceAndTateImg from "@/assets/brands/ace-and-tate.jpg";
 
 const brandImages: Record<string, string> = {
   
