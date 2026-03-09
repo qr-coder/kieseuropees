@@ -457,7 +457,7 @@ export const brands: Brand[] = [
     description: "Alchemist is een Belgisch modemerk dat duurzame, vrouwelijke mode maakt van natuurlijke en eerlijk geproduceerde materialen. Vakkundig gesneden kleding die goed voelt en er prachtig uitziet.",
     longDescription: "Alchemist werd in 2004 opgericht in België met de missie om stijlvolle, duurzame mode te creëren voor de bewuste vrouw. Het merk combineert tijdloos design met een sterke focus op duurzaamheid en eerlijke productie.\n\nDe collecties van Alchemist worden gemaakt van zorgvuldig geselecteerde materialen zoals biologisch katoen, Tencel en andere duurzame stoffen. Elk kledingstuk is ontworpen om seizoen na seizoen gedragen te worden, met aandacht voor pasvorm, comfort en vrouwelijkheid.\n\nAlchemist produceert in Europa onder eerlijke omstandigheden en is transparant over de gehele productieketen. Het merk draagt het Fair Trade-label en het 'Produced in Europe'-keurmerk. Met een filosofie van 'inspire, not dictate' moedigt Alchemist vrouwen aan om bewuste keuzes te maken zonder in te leveren op stijl.",
     category: "Dameskleding",
-    url: "https://alchemist-fashion.com",
+    url: "https://www.awin1.com/cread.php?awinmid=105845&awinaffid=2778796&ued=https%3A%2F%2Fwww.otrium.nl%2Fmerken%2Falchemist%2Fdames",
     homepageUrl: "https://alchemist-fashion.com",
     founded: "2004",
     headquarters: "België",
