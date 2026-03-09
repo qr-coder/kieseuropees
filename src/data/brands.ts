@@ -472,7 +472,7 @@ export const brands: Brand[] = [
     description: "Ace & Tate is een Nederlands brillenmerk dat stijlvolle, betaalbare brillen en zonnebrillen maakt met oog voor duurzaamheid en transparantie in de productieketen.",
     longDescription: "Ace & Tate werd in 2013 opgericht in Amsterdam met een duidelijke missie: kwalitatieve brillen toegankelijk maken voor iedereen. Door de tussenpersonen weg te laten en direct aan de consument te verkopen, biedt het merk premium brillen tegen eerlijke prijzen.\n\nHet merk werkt samen met gerenommeerde Italiaanse fabrikanten en gebruikt hoogwaardige materialen zoals bio-acetaat, dat gemaakt is van katoen en houtpulp in plaats van aardolie. Dit resulteert in brillen die niet alleen mooi zijn, maar ook een lagere milieu-impact hebben.\n\nAce & Tate zet zich actief in voor duurzaamheid met hun 'Reframe' programma, waarbij oude brillen worden ingezameld en gerecycled. Het merk publiceert jaarlijks een impactrapport en werkt continu aan het verbeteren van hun ecologische voetafdruk. Met winkels in heel Europa biedt Ace & Tate een persoonlijke winkelervaring gecombineerd met online gemak.",
     category: "Brillen & Zonnebrillen",
-    url: "https://www.aceandtate.com",
+    url: "https://www.awin1.com/cread.php?awinmid=105845&awinaffid=2778796&ued=https%3A%2F%2Fwww.otrium.nl%2Fmerken%2Facetate%2Fheren",
     homepageUrl: "https://www.aceandtate.com",
     founded: "2013",
     headquarters: "Amsterdam, Nederland",
