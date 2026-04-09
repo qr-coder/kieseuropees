@@ -27,9 +27,9 @@ export const reasons: Reason[] = [
     ],
   },
   {
-    slug: "eerlijke-arbeidsomstandigheden",
+    slug: "eerlijke-arbeids-omstandigheden",
     icon: Heart,
-    title: "Eerlijke arbeidsomstandigheden",
+    title: "Eerlijke arbeids-omstandigheden",
     description:
       "Productie binnen Europa betekent betere lonen, veilige werkplekken en respect voor werknemersrechten.",
     longDescription:
