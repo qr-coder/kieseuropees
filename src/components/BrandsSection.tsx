@@ -34,10 +34,13 @@ const EUStars = () => {
 
 const BrandsSection = () => {
   const [activeFilter, setActiveFilter] = useState<string | null>(null);
+  const [searchQuery, setSearchQuery] = useState("");
 
-  const filteredBrands = activeFilter
-    ? brands.filter((brand) => brand.clothingTypes.includes(activeFilter))
-    : brands;
+  const filteredBrands = brands.filter((brand) => {
+    const matchesFilter = !activeFilter || brand.clothingTypes.includes(activeFilter);
+    const matchesSearch = !searchQuery || brand.name.toLowerCase().includes(searchQuery.toLowerCase());
+    return matchesFilter && matchesSearch;
+  });
 
   return (
     <section id="merken" className="relative py-24 px-6 overflow-hidden">
