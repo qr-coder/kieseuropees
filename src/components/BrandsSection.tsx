@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Search } from "lucide-react";
 import BrandCard from "./BrandCard";
 import { brands, clothingTypeOptions } from "@/data/brands";
 
