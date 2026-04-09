@@ -53,7 +53,19 @@ const BrandsSection = () => {
           <h2 className="font-heading text-4xl md:text-5xl text-foreground">
             Uitgelichte <span className="italic">merken</span>
           </h2>
-          <p className="font-body text-muted-foreground mt-4 max-w-lg mx-auto">
+          <p className="font-body text-muted-foreground mt-4 max-w-lg mx-auto mb-6">
+            Van Scandinavisch minimalisme tot Frans vakmanschap — ontdek merken die staan voor kwaliteit, duurzaamheid en Europese waarden.
+          </p>
+          <div className="relative max-w-md mx-auto">
+            <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
+            <input
+              type="text"
+              placeholder="Zoek een merk..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="w-full pl-10 pr-4 py-2.5 rounded-full border border-border bg-background font-body text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary transition-all"
+            />
+          </div>
             Van Scandinavisch minimalisme tot Frans vakmanschap — ontdek merken die staan voor kwaliteit, duurzaamheid en Europese waarden.
           </p>
         </div>
