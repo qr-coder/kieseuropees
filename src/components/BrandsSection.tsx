@@ -66,8 +66,6 @@ const BrandsSection = () => {
               className="w-full pl-10 pr-4 py-2.5 rounded-full border border-border bg-background font-body text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary transition-all"
             />
           </div>
-            Van Scandinavisch minimalisme tot Frans vakmanschap — ontdek merken die staan voor kwaliteit, duurzaamheid en Europese waarden.
-          </p>
         </div>
 
         {/* Filter buttons */}
