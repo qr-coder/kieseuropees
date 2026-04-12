@@ -9,9 +9,12 @@ interface BrandCardProps {
   category: string;
   url: string;
   flag: string;
+  priceLevel: 1 | 2 | 3;
 }
 
-const BrandCard = ({ name, slug, country, description, category, url, flag }: BrandCardProps) => {
+const BrandCard = ({ name, slug, country, description, category, url, flag, priceLevel }: BrandCardProps) => {
+  const priceLabel = "€".repeat(priceLevel);
+  const priceGray = "€".repeat(3 - priceLevel);
   return (
     <Link
       to={`/merk/${slug}`}
@@ -34,9 +37,15 @@ const BrandCard = ({ name, slug, country, description, category, url, flag }: Br
         {description}
       </p>
       <div className="flex items-end justify-between">
-        <span className="inline-block font-body text-xs tracking-wider uppercase bg-secondary text-secondary-foreground px-3 py-1 rounded-full">
-          {category}
-        </span>
+        <div className="flex items-center gap-2">
+          <span className="inline-block font-body text-xs tracking-wider uppercase bg-secondary text-secondary-foreground px-3 py-1 rounded-full">
+            {category}
+          </span>
+          <span className="font-body text-xs font-semibold text-primary">
+            {priceLabel}
+            <span className="text-muted-foreground/30">{priceGray}</span>
+          </span>
+        </div>
         <a
           href={url}
           target="_blank"

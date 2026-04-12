@@ -12,6 +12,7 @@ export interface Brand {
   headquarters: string;
   highlights: string[];
   clothingTypes: string[];
+  priceLevel: 1 | 2 | 3; // 1=€ budget, 2=€€ mid, 3=€€€ premium
 }
 
 export const clothingTypeOptions = [
@@ -43,6 +44,7 @@ export const brands: Brand[] = [
     headquarters: "Keulen, Duitsland",
     highlights: ["Fair Wear Foundation lid", "90%+ duurzame materialen", "Transparant jaarlijks duurzaamheidsrapport"],
     clothingTypes: ["T-shirts", "Truien & Sweaters", "Broeken & Jeans", "Jassen"],
+    priceLevel: 2,
   },
   {
     name: "Kuyichi",
@@ -58,6 +60,7 @@ export const brands: Brand[] = [
     headquarters: "Amsterdam, Nederland",
     highlights: ["Pionier in duurzame denim sinds 2001", "Mede-oprichter Organic Cotton Accelerator", "Waterbesparende productieprocessen"],
     clothingTypes: ["Broeken & Jeans"],
+    priceLevel: 2,
   },
   {
     name: "SKFK",
@@ -73,6 +76,7 @@ export const brands: Brand[] = [
     headquarters: "Baskenland, Spanje",
     highlights: ["90%+ duurzame materialen", "Lokale productie in Baskenland", "Unieke kleurrijke printdesigns"],
     clothingTypes: ["T-shirts", "Truien & Sweaters", "Broeken & Jeans", "Jurken"],
+    priceLevel: 2,
   },
   {
     name: "Maium",
@@ -88,6 +92,7 @@ export const brands: Brand[] = [
     headquarters: "Amsterdam, Nederland",
     highlights: ["Regenjassen van gerecyclede PET-flessen", "Ontworpen voor de Nederlandse fietscultuur", "Stijlvol én waterdicht Dutch design"],
     clothingTypes: ["Jassen"],
+    priceLevel: 3,
   },
   {
     name: "Anekdot",
@@ -103,6 +108,7 @@ export const brands: Brand[] = [
     headquarters: "Berlijn, Duitsland",
     highlights: ["Lingerie van upcycled reststoffen", "Elk stuk is uniek", "Lokale productie in Berlijn"],
     clothingTypes: ["Zwemkleding", "Ondergoed"],
+    priceLevel: 2,
   },
   {
     name: "MUD Jeans",
@@ -118,6 +124,7 @@ export const brands: Brand[] = [
     headquarters: "Laren, Nederland",
     highlights: ["Lease A Jeans circulair programma", "3.000 liter waterbesparing per jeans", "B Corp-gecertificeerd"],
     clothingTypes: ["Broeken & Jeans"],
+    priceLevel: 2,
   },
   {
     name: "Ecoalf",
@@ -133,6 +140,7 @@ export const brands: Brand[] = [
     headquarters: "Madrid, Spanje",
     highlights: ["Upcycling the Oceans met 3.000+ vissers", "450+ stoffen uit gerecyclede materialen", "Because there is no Planet B"],
     clothingTypes: ["T-shirts", "Truien & Sweaters", "Jassen", "Broeken & Jeans", "Schoenen"],
+    priceLevel: 2,
   },
   {
     name: "Veja",
@@ -148,6 +156,7 @@ export const brands: Brand[] = [
     headquarters: "Parijs, Frankrijk",
     highlights: ["Nul euro aan reclame-uitgaven", "Wild rubber uit het Amazonegebied", "5-7x hogere productiekosten dan conventioneel"],
     clothingTypes: ["Schoenen"],
+    priceLevel: 2,
   },
   {
     name: "Kings of Indigo",
@@ -163,6 +172,7 @@ export const brands: Brand[] = [
     headquarters: "Amsterdam, Nederland",
     highlights: ["Opgericht door voormalig G-Star ontwerper", "Post-consumer gerecycled denim", "Volledige fabriekstransparantie"],
     clothingTypes: ["Broeken & Jeans", "T-shirts"],
+    priceLevel: 2,
   },
   {
     name: "Organic Basics",
@@ -178,6 +188,7 @@ export const brands: Brand[] = [
     headquarters: "Kopenhagen, Denemarken",
     highlights: ["SilverTech™ antibacteriële technologie", "Low-impact website design", "Eigen duurzaamheidsfonds"],
     clothingTypes: ["T-shirts", "Ondergoed", "Sportkleding"],
+    priceLevel: 2,
   },
   {
     name: "Näz",
@@ -193,6 +204,7 @@ export const brands: Brand[] = [
     headquarters: "Porto, Portugal",
     highlights: ["On-demand productie tegen overproductie", "100% lokale Portugese productie", "Transparante prijsopbouw"],
     clothingTypes: ["T-shirts", "Truien & Sweaters", "Broeken & Jeans", "Jurken"],
+    priceLevel: 2,
   },
   {
     name: "Colorful Standard",
@@ -208,6 +220,7 @@ export const brands: Brand[] = [
     headquarters: "Kopenhagen, Denemarken",
     highlights: ["50+ kleuren per seizoen", "GOTS-gecertificeerd biologisch katoen", "Productie op hernieuwbare energie"],
     clothingTypes: ["T-shirts", "Truien & Sweaters"],
+    priceLevel: 1,
   },
   {
     name: "Thinking MU",
@@ -223,6 +236,7 @@ export const brands: Brand[] = [
     headquarters: "Barcelona, Spanje",
     highlights: ["Samenwerkingen met internationale kunstenaars", "'Trash' collectie van gerecycled afval", "Creatieve prints op duurzame stoffen"],
     clothingTypes: ["T-shirts", "Truien & Sweaters", "Broeken & Jeans"],
+    priceLevel: 2,
   },
   {
     name: "Jan 'n June",
@@ -238,6 +252,7 @@ export const brands: Brand[] = [
     headquarters: "Hamburg, Duitsland",
     highlights: ["Productie in Europese familieateliers", "GOTS-gecertificeerde materialen", "Closing the Loop recyclingprogramma"],
     clothingTypes: ["T-shirts", "Truien & Sweaters", "Broeken & Jeans", "Jurken"],
+    priceLevel: 1,
   },
   {
     name: "TwoThirds",
@@ -253,6 +268,7 @@ export const brands: Brand[] = [
     headquarters: "Barcelona, Spanje",
     highlights: ["Oceaan-geïnspireerd design", "Donaties aan oceaanbeschermingsprojecten", "Europese productie in Portugal en Spanje"],
     clothingTypes: ["T-shirts", "Truien & Sweaters", "Zwemkleding"],
+    priceLevel: 2,
   },
   {
     name: "Dedicated",
@@ -268,6 +284,7 @@ export const brands: Brand[] = [
     headquarters: "Borås, Zweden",
     highlights: ["GOTS-gecertificeerd biologisch katoen", "Creatieve samenwerkingen met kunstenaars", "Fair Wear Foundation lid"],
     clothingTypes: ["T-shirts", "Truien & Sweaters"],
+    priceLevel: 1,
   },
   {
     name: "Lanius",
@@ -283,6 +300,7 @@ export const brands: Brand[] = [
     headquarters: "Keulen, Duitsland",
     highlights: ["25+ jaar duurzame mode-ervaring", "GOTS en Grüner Knopf gecertificeerd", "Exclusieve Europese productie"],
     clothingTypes: ["T-shirts", "Truien & Sweaters", "Broeken & Jeans", "Jurken"],
+    priceLevel: 3,
   },
   {
     name: "KnowledgeCotton Apparel",
@@ -298,6 +316,7 @@ export const brands: Brand[] = [
     headquarters: "Herning, Denemarken",
     highlights: ["Drie generaties familiebedrijf", "B Corp en Climate Neutral gecertificeerd", "Pionier in GOTS-gecertificeerd katoen"],
     clothingTypes: ["T-shirts", "Truien & Sweaters", "Jassen", "Broeken & Jeans"],
+    priceLevel: 2,
   },
   {
     name: "Sandqvist",
@@ -313,6 +332,7 @@ export const brands: Brand[] = [
     headquarters: "Stockholm, Zweden",
     highlights: ["80%+ collectie van duurzame materialen", "CO2-neutrale productie", "Reparatieservice voor langere levensduur"],
     clothingTypes: ["Tassen & Accessoires"],
+    priceLevel: 3,
   },
   {
     name: "Tropicfeel",
@@ -328,6 +348,7 @@ export const brands: Brand[] = [
     headquarters: "Barcelona, Spanje",
     highlights: ["Recordbrekende crowdfundingcampagne", "B Corp-gecertificeerd", "Modulaire all-in-one reisschoenen"],
     clothingTypes: ["Schoenen"],
+    priceLevel: 2,
   },
   {
     name: "SKOT Fashion",
@@ -343,6 +364,7 @@ export const brands: Brand[] = [
     headquarters: "Nederland",
     highlights: ["Gespecialiseerd in duurzame overhemden", "GOTS-gecertificeerde productie", "Transparante productieketen"],
     clothingTypes: ["Overhemden"],
+    priceLevel: 2,
   },
   {
     name: "ARZE",
@@ -358,6 +380,7 @@ export const brands: Brand[] = [
     headquarters: "Spanje",
     highlights: ["100% veganistische sneakers Made in Spain", "Bio-based materialen van maïs en oceaanplastic", "Platform voor opkomende muzikanten"],
     clothingTypes: ["Schoenen"],
+    priceLevel: 2,
   },
   {
     name: "Boldwill",
@@ -373,6 +396,7 @@ export const brands: Brand[] = [
     headquarters: "Den Haag, Nederland",
     highlights: ["Sportkleding van natuurlijke materialen", "Bio-based CREORA™ elastaan", "Europese productie"],
     clothingTypes: ["Sportkleding", "T-shirts"],
+    priceLevel: 2,
   },
   {
     name: "Clotsy Brand",
@@ -388,6 +412,7 @@ export const brands: Brand[] = [
     headquarters: "Spanje",
     highlights: ["100% veganistische mode", "Lokale productie in familieworkshops", "Breed assortiment van basics tot schoenen"],
     clothingTypes: ["T-shirts", "Truien & Sweaters", "Jurken", "Schoenen", "Zwemkleding"],
+    priceLevel: 1,
   },
   {
     name: "Flax & Loom",
@@ -403,6 +428,7 @@ export const brands: Brand[] = [
     headquarters: "Verenigd Koninkrijk",
     highlights: ["40 jaar denim-expertise van oprichter", "Verkrijgbaar in 50+ winkels wereldwijd", "Transseizoens en inclusief ontwerp"],
     clothingTypes: ["Broeken & Jeans"],
+    priceLevel: 2,
   },
   {
     name: "GOT BAG",
@@ -418,6 +444,7 @@ export const brands: Brand[] = [
     headquarters: "Mainz, Duitsland",
     highlights: ["'s Werelds eerste rugzak van oceaanplastic", "Opruimprogramma in Indonesië", "German Design Award winnaar"],
     clothingTypes: ["Tassen & Accessoires"],
+    priceLevel: 2,
   },
   {
     name: "Iné",
@@ -433,6 +460,7 @@ export const brands: Brand[] = [
     headquarters: "Frankrijk",
     highlights: ["100% veganistische unisex sneakers", "Retro '90s design met eco-materialen", "Gratis bezorging en retournering"],
     clothingTypes: ["Schoenen"],
+    priceLevel: 2,
   },
   {
     name: "Filippa K",
@@ -448,6 +476,7 @@ export const brands: Brand[] = [
     headquarters: "Stockholm, Zweden",
     highlights: ["Tijdloos Scandinavisch minimalisme", "Eigen tweedehands platform (Preowned)", "Circulaire mode-aanpak en transparante productie"],
     clothingTypes: ["T-shirts", "Truien & Sweaters", "Broeken & Jeans", "Jassen", "Jurken"],
+    priceLevel: 3,
   },
   {
     name: "Alchemist",
@@ -463,6 +492,7 @@ export const brands: Brand[] = [
     headquarters: "België",
     highlights: ["Fair Trade gecertificeerd", "Geproduceerd in Europa", "Natuurlijke en duurzame materialen zoals biologisch katoen en Tencel"],
     clothingTypes: ["T-shirts", "Truien & Sweaters", "Broeken & Jeans", "Jassen", "Jurken"],
+    priceLevel: 2,
   },
   {
     name: "Ace & Tate",
@@ -478,5 +508,6 @@ export const brands: Brand[] = [
     headquarters: "Amsterdam, Nederland",
     highlights: ["Bio-acetaat frames van duurzame materialen", "Direct-to-consumer model voor eerlijke prijzen", "Reframe recyclingprogramma voor oude brillen", "Geproduceerd bij gerenommeerde Italiaanse fabrikanten"],
     clothingTypes: ["Tassen & Accessoires"],
+    priceLevel: 2,
   },
 ];
