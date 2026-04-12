@@ -12,7 +12,9 @@ interface BrandCardProps {
   priceLevel: 1 | 2 | 3;
 }
 
-const BrandCard = ({ name, slug, country, description, category, url, flag }: BrandCardProps) => {
+const BrandCard = ({ name, slug, country, description, category, url, flag, priceLevel }: BrandCardProps) => {
+  const priceLabel = "€".repeat(priceLevel);
+  const priceGray = "€".repeat(3 - priceLevel);
   return (
     <Link
       to={`/merk/${slug}`}
