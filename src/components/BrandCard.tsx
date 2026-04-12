@@ -9,6 +9,7 @@ interface BrandCardProps {
   category: string;
   url: string;
   flag: string;
+  priceLevel: 1 | 2 | 3;
 }
 
 const BrandCard = ({ name, slug, country, description, category, url, flag }: BrandCardProps) => {
