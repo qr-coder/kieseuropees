@@ -12,6 +12,7 @@ export interface Brand {
   headquarters: string;
   highlights: string[];
   clothingTypes: string[];
+  priceLevel: 1 | 2 | 3; // 1=€ budget, 2=€€ mid, 3=€€€ premium
 }
 
 export const clothingTypeOptions = [

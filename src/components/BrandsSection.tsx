@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Search } from "lucide-react";
+import { Search, Euro } from "lucide-react";
 import BrandCard from "./BrandCard";
 import { brands, clothingTypeOptions } from "@/data/brands";
 
@@ -32,14 +32,36 @@ const EUStars = () => {
   );
 };
 
+const PriceLabel = ({ level, active }: { level: 1 | 2 | 3; active: boolean }) => {
+  const euros = Array.from({ length: 3 }, (_, i) => (
+    <span
+      key={i}
+      className={`text-sm font-semibold transition-colors ${
+        i < level
+          ? active
+            ? "text-primary-foreground"
+            : "text-foreground"
+          : active
+            ? "text-primary-foreground/40"
+            : "text-muted-foreground/30"
+      }`}
+    >
+      €
+    </span>
+  ));
+  return <span className="inline-flex gap-0.5">{euros}</span>;
+};
+
 const BrandsSection = () => {
   const [activeFilter, setActiveFilter] = useState<string | null>(null);
+  const [activePriceLevel, setActivePriceLevel] = useState<number | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
 
   const filteredBrands = brands.filter((brand) => {
     const matchesFilter = !activeFilter || brand.clothingTypes.includes(activeFilter);
     const matchesSearch = !searchQuery || brand.name.toLowerCase().includes(searchQuery.toLowerCase());
-    return matchesFilter && matchesSearch;
+    const matchesPrice = !activePriceLevel || brand.priceLevel === activePriceLevel;
+    return matchesFilter && matchesSearch && matchesPrice;
   });
 
   return (
@@ -68,7 +90,25 @@ const BrandsSection = () => {
           </div>
         </div>
 
-        {/* Filter buttons */}
+        {/* Price filter */}
+        <div className="flex justify-center gap-3 mb-6">
+          <span className="font-body text-sm text-muted-foreground self-center mr-1">Prijs:</span>
+          {([1, 2, 3] as const).map((level) => (
+            <button
+              key={level}
+              onClick={() => setActivePriceLevel(activePriceLevel === level ? null : level)}
+              className={`font-body text-sm px-4 py-2 rounded-full border transition-all duration-200 ${
+                activePriceLevel === level
+                  ? "bg-primary text-primary-foreground border-primary"
+                  : "bg-transparent text-muted-foreground border-border hover:border-primary/50 hover:text-foreground"
+              }`}
+            >
+              <PriceLabel level={level} active={activePriceLevel === level} />
+            </button>
+          ))}
+        </div>
+
+        {/* Clothing type filter buttons */}
         <div className="flex flex-wrap justify-center gap-2 mb-10">
           <button
             onClick={() => setActiveFilter(null)}
@@ -103,7 +143,7 @@ const BrandsSection = () => {
 
         {filteredBrands.length === 0 && (
           <p className="text-center text-muted-foreground font-body mt-8">
-            Geen merken gevonden voor dit type kleding.
+            Geen merken gevonden voor deze selectie.
           </p>
         )}
       </div>
