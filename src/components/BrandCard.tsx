@@ -37,9 +37,15 @@ const BrandCard = ({ name, slug, country, description, category, url, flag, pric
         {description}
       </p>
       <div className="flex items-end justify-between">
-        <span className="inline-block font-body text-xs tracking-wider uppercase bg-secondary text-secondary-foreground px-3 py-1 rounded-full">
-          {category}
-        </span>
+        <div className="flex items-center gap-2">
+          <span className="inline-block font-body text-xs tracking-wider uppercase bg-secondary text-secondary-foreground px-3 py-1 rounded-full">
+            {category}
+          </span>
+          <span className="font-body text-xs font-semibold text-primary">
+            {priceLabel}
+            <span className="text-muted-foreground/30">{priceGray}</span>
+          </span>
+        </div>
         <a
           href={url}
           target="_blank"
