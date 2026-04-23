@@ -542,4 +542,24 @@ export const brands: Brand[] = [
     clothingTypes: ["Schoenen"],
     priceLevel: 2,
   },
+  {
+    name: "Burberry",
+    slug: "burberry",
+    country: "Verenigd Koninkrijk",
+    flag: "🇬🇧",
+    description: "Burberry is een Brits luxemerk dat bekendstaat om iconische trenchcoats, geruite accessoires en tijdloze outerwear met een sterke heritage-uitstraling.",
+    longDescription: "Burberry werd in 1856 opgericht door Thomas Burberry in Basingstoke, Engeland. Het merk groeide uit tot een van de bekendste Britse modehuizen, met de trenchcoat als meest iconische kledingstuk. Door de combinatie van functioneel vakmanschap, hoogwaardige materialen en herkenbaar design heeft Burberry een blijvende plek in de Europese modegeschiedenis.
+
+De collecties bestaan uit luxe jassen, knitwear, accessoires, schoenen en verfijnde ready-to-wear. Burberry werkt aan duurzamere materialen, verantwoord inkopen en programma's om de milieu-impact van productie en verpakkingen te verkleinen.
+
+Met zijn Britse erfgoed, klassieke ruitmotief en focus op premium kwaliteit richt Burberry zich op tijdloze mode die jarenlang gedragen kan worden. Het merk staat voor een mix van traditie, vakmanschap en moderne luxe.",
+    category: "Luxe mode",
+    url: "https://www.burberry.com",
+    homepageUrl: "https://www.burberry.com",
+    founded: "1856",
+    headquarters: "Londen, Verenigd Koninkrijk",
+    highlights: ["Iconische Britse trenchcoats sinds 1856", "Premium outerwear en accessoires", "Brits erfgoed met moderne luxe-uitstraling"],
+    clothingTypes: ["Jassen", "Truien & Sweaters", "Overhemden", "Schoenen", "Tassen & Accessoires"],
+    priceLevel: 3,
+  },
 ];
