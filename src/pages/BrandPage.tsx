@@ -39,6 +39,7 @@ import alchemistImg from "@/assets/brands/alchemist.jpg";
 import aceAndTateImg from "@/assets/brands/ace-and-tate.jpg";
 import iriedailyImg from "@/assets/brands/iriedaily.jpg";
 import idEightImg from "@/assets/brands/id-eight.jpg";
+import burberryImg from "@/assets/brands/burberry.jpg";
 
 const brandImages: Record<string, string> = {
   
@@ -76,6 +77,7 @@ const brandImages: Record<string, string> = {
   "ace-and-tate": aceAndTateImg,
   iriedaily: iriedailyImg,
   "id-eight": idEightImg,
+  burberry: burberryImg,
 };
 
 const BrandPage = () => {
