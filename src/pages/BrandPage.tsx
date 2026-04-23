@@ -37,6 +37,8 @@ import ineImg from "@/assets/brands/ine.jpg";
 import filippaKImg from "@/assets/brands/filippa-k.jpg";
 import alchemistImg from "@/assets/brands/alchemist.jpg";
 import aceAndTateImg from "@/assets/brands/ace-and-tate.jpg";
+import iriedailyImg from "@/assets/brands/iriedaily.jpg";
+import idEightImg from "@/assets/brands/id-eight.jpg";
 
 const brandImages: Record<string, string> = {
   
@@ -72,6 +74,8 @@ const brandImages: Record<string, string> = {
   "filippa-k": filippaKImg,
   alchemist: alchemistImg,
   "ace-and-tate": aceAndTateImg,
+  iriedaily: iriedailyImg,
+  "id-eight": idEightImg,
 };
 
 const BrandPage = () => {
