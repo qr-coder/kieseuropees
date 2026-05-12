@@ -40,6 +40,7 @@ import aceAndTateImg from "@/assets/brands/ace-and-tate.jpg";
 import iriedailyImg from "@/assets/brands/iriedaily.jpg";
 import idEightImg from "@/assets/brands/id-eight.jpg";
 import burberryImg from "@/assets/brands/burberry.jpg";
+import didriksonsImg from "@/assets/brands/didriksons.jpg";
 
 const brandImages: Record<string, string> = {
   
