@@ -79,6 +79,7 @@ const brandImages: Record<string, string> = {
   iriedaily: iriedailyImg,
   "id-eight": idEightImg,
   burberry: burberryImg,
+  didriksons: didriksonsImg,
 };
 
 const BrandPage = () => {
