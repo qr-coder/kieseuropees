@@ -41,7 +41,7 @@ const Hero = () => {
           alt="Europese mode op straat"
           className="w-full h-full object-cover object-top"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-foreground/80 via-foreground/50 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#00245a]/90 via-[#003399]/60 to-[#003399]/30" />
       </div>
 
       <EUStars />
