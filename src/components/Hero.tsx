@@ -1,4 +1,4 @@
-import heroImage from "@/assets/hero-fashion.jpg";
+import heroImage from "@/assets/eu-hero-bg.jpg";
 import { Button } from "@/components/ui/button";
 import { ArrowDown } from "lucide-react";
 
