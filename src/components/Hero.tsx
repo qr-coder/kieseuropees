@@ -2,35 +2,6 @@ import heroImage from "@/assets/hero-fashion.jpg";
 import { Button } from "@/components/ui/button";
 import { ArrowDown } from "lucide-react";
 
-const EUStars = () => {
-  const stars = Array.from({ length: 12 });
-  const radius = 120;
-  const cx = 150;
-  const cy = 150;
-
-  return (
-    <svg
-      className="absolute top-1/2 right-0 translate-x-1/4 -translate-y-1/2 w-[700px] h-[700px] opacity-[0.08] pointer-events-none"
-      viewBox="0 0 300 300"
-      fill="none"
-    >
-      {stars.map((_, i) => {
-        const angle = (i * 30 - 90) * (Math.PI / 180);
-        const x = cx + radius * Math.cos(angle);
-        const y = cy + radius * Math.sin(angle);
-        return (
-          <polygon
-            key={i}
-            points="0,-10 2.9,-4 9.5,-3.1 4.8,1.5 5.9,8.1 0,5 -5.9,8.1 -4.8,1.5 -9.5,-3.1 -2.9,-4"
-            transform={`translate(${x}, ${y})`}
-            fill="hsl(45, 80%, 55%)"
-          />
-        );
-      })}
-    </svg>
-  );
-};
-
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
@@ -44,7 +15,7 @@ const Hero = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-foreground/80 via-foreground/50 to-transparent" />
       </div>
 
-      <EUStars />
+      
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 py-24">
