@@ -15,8 +15,6 @@ const Hero = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-foreground/80 via-foreground/50 to-transparent" />
       </div>
 
-      
-
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 py-24">
         <div className="max-w-2xl">

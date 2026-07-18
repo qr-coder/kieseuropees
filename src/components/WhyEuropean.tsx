@@ -5,7 +5,6 @@ import { ArrowRight } from "lucide-react";
 const WhyEuropean = () => {
   return (
     <section id="waarom" className="relative py-24 px-6 bg-primary overflow-hidden">
-
       <div className="container mx-auto max-w-6xl relative z-10">
         <div className="text-center mb-16">
           <p className="font-body text-sm tracking-[0.3em] uppercase text-primary-foreground/70 mb-3">
