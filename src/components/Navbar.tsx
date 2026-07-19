@@ -26,8 +26,8 @@ const Navbar = () => {
 
         <div className="hidden md:flex items-center gap-8 font-body text-sm tracking-wide">
           {[
-            { label: "Merken", href: "#merken" },
-            { label: "Waarom Europees?", href: "#waarom" },
+            { label: "Merken", href: "/#merken" },
+            { label: "Waarom Europees?", href: "/#waarom" },
           ].map((link) => (
             <a
               key={link.href}
