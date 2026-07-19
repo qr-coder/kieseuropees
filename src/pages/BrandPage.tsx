@@ -95,7 +95,7 @@ const BrandPage = () => {
       <div className="min-h-screen bg-background flex items-center justify-center">
         <div className="text-center">
           <h1 className="font-heading text-4xl text-foreground mb-4">Merk niet gevonden</h1>
-          <Link to="/" className="font-body text-primary hover:underline">
+          <Link to="/" className="font-body text-secondary hover:underline">
             ← Terug naar home
           </Link>
         </div>
