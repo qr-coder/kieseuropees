@@ -18,7 +18,7 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto px-6 py-4 flex items-center justify-between">
-        <a href="#" className="font-heading text-xl">
+        <a href="/" className="font-heading text-xl">
           <span className={scrolled ? "text-foreground" : "text-primary-foreground"}>
             Kies <span className="italic">Europees</span>
           </span>
