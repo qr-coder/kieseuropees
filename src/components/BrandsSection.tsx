@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Search, Euro } from "lucide-react";
 import BrandCard from "./BrandCard";
-import { brands, clothingTypeOptions } from "@/data/brands";
+import { brands } from "@/data/brands";
 
 const PriceLabel = ({ level, active }: { level: 1 | 2 | 3; active: boolean }) => {
   const euros = Array.from({ length: 3 }, (_, i) => (
