@@ -24,7 +24,7 @@ const PriceLabel = ({ level, active }: { level: 1 | 2 | 3; active: boolean }) =>
 };
 
 const BrandsSection = () => {
-  const [activeFilter, setActiveFilter] = useState<string | null>(null);
+  const [activePriceLevel, setActivePriceLevel] = useState<number | null>(null);
   const [activePriceLevel, setActivePriceLevel] = useState<number | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
 
