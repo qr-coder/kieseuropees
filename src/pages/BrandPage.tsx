@@ -121,7 +121,7 @@ const BrandPage = () => {
           <div className="container mx-auto max-w-4xl">
             <Link
               to="/#merken"
-              className="inline-flex items-center gap-2 font-body text-sm text-primary-foreground/80 hover:text-primary-foreground mb-4 transition-colors"
+              className="inline-flex items-center gap-2 font-body text-sm text-secondary-foreground/80 hover:text-secondary-foreground mb-4 transition-colors"
             >
               <ArrowLeft className="w-4 h-4" />
               Terug naar merken
