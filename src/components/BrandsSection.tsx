@@ -32,6 +32,7 @@ const BrandsSection = () => {
     const matchesSearch =
       !q ||
       brand.name.toLowerCase().includes(q) ||
+      brand.country.toLowerCase().includes(q) ||
       brand.clothingTypes.some((t) => t.toLowerCase().includes(q)) ||
       brand.category.toLowerCase().includes(q);
     const matchesPrice = !activePriceLevel || brand.priceLevel === activePriceLevel;
@@ -55,7 +56,7 @@ const BrandsSection = () => {
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
             <input
               type="text"
-              placeholder="Zoek op merk of kledingstuk..."
+              placeholder="Zoek op merk, land of kledingstuk..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="w-full pl-10 pr-4 py-2.5 rounded-full border border-border bg-background font-body text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary transition-all"
