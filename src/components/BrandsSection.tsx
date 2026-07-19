@@ -81,32 +81,7 @@ const BrandsSection = () => {
           ))}
         </div>
 
-        {/* Clothing type filter buttons */}
-        <div className="flex flex-wrap justify-center gap-2 mb-10">
-          <button
-            onClick={() => setActiveFilter(null)}
-            className={`font-body text-sm px-4 py-2 rounded-full border transition-all duration-200 ${
-              activeFilter === null
-                ? "bg-primary text-primary-foreground border-primary"
-                : "bg-transparent text-muted-foreground border-border hover:border-primary/50 hover:text-foreground"
-            }`}
-          >
-            Alles
-          </button>
-          {clothingTypeOptions.map((type) => (
-            <button
-              key={type}
-              onClick={() => setActiveFilter(activeFilter === type ? null : type)}
-              className={`font-body text-sm px-4 py-2 rounded-full border transition-all duration-200 ${
-                activeFilter === type
-                  ? "bg-primary text-primary-foreground border-primary"
-                  : "bg-transparent text-muted-foreground border-border hover:border-primary/50 hover:text-foreground"
-              }`}
-            >
-              {type}
-            </button>
-          ))}
-        </div>
+        <div className="mb-10" />
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredBrands.map((brand) => (
