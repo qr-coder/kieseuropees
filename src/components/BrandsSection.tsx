@@ -29,10 +29,14 @@ const BrandsSection = () => {
   const [searchQuery, setSearchQuery] = useState("");
 
   const filteredBrands = brands.filter((brand) => {
-    const matchesFilter = !activeFilter || brand.clothingTypes.includes(activeFilter);
-    const matchesSearch = !searchQuery || brand.name.toLowerCase().includes(searchQuery.toLowerCase());
+    const q = searchQuery.toLowerCase();
+    const matchesSearch =
+      !q ||
+      brand.name.toLowerCase().includes(q) ||
+      brand.clothingTypes.some((t) => t.toLowerCase().includes(q)) ||
+      brand.category.toLowerCase().includes(q);
     const matchesPrice = !activePriceLevel || brand.priceLevel === activePriceLevel;
-    return matchesFilter && matchesSearch && matchesPrice;
+    return matchesSearch && matchesPrice;
   });
 
   return (
