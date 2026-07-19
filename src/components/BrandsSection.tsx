@@ -32,6 +32,7 @@ const BrandsSection = () => {
     const matchesSearch =
       !q ||
       brand.name.toLowerCase().includes(q) ||
+      brand.country.toLowerCase().includes(q) ||
       brand.clothingTypes.some((t) => t.toLowerCase().includes(q)) ||
       brand.category.toLowerCase().includes(q);
     const matchesPrice = !activePriceLevel || brand.priceLevel === activePriceLevel;
