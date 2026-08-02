@@ -28,14 +28,5 @@ const Index = () => {
     </div>
   );
 };
-    <div className="min-h-screen bg-background">
-      <Navbar />
-      <Hero />
-      <BrandsSection />
-      <WhyEuropean />
-      <Footer />
-    </div>
-  );
-};
 
 export default Index;
