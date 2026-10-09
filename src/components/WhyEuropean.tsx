@@ -11,7 +11,7 @@ const WhyEuropean = () => {
             De kracht van Europese mode
           </p>
           <h2 className="font-heading text-4xl md:text-5xl text-primary-foreground">
-            Waarom <span className="italic text-accent">Europees</span> kopen?
+            Waarom <span className="italic">Europees</span> kopen?
           </h2>
         </div>
 
@@ -20,9 +20,9 @@ const WhyEuropean = () => {
             <Link
               key={reason.slug}
               to={`/waarom/${reason.slug}`}
-              className="group flex gap-5 p-6 rounded-xl bg-background border border-border hover:border-primary/30 hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
+              className="group flex gap-5 p-6 rounded-lg bg-background border border-border hover:border-primary/30 hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
             >
-              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center">
+              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
                 <reason.icon className="w-5 h-5 text-primary" />
               </div>
               <div className="flex-1">
