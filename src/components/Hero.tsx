@@ -57,7 +57,7 @@ const Hero = () => {
             </Button>
           </div>
           <div className="mt-14 flex gap-10 border-t border-primary-foreground/20 pt-6 max-w-lg">
-            {[["35+","Europese merken"],["15","Landen"],["100%","Fast-fashion vrij"]].map(([n,l]) => (
+            {[["35+","Europese merken"],["10","Landen"],["100%","Fast-fashion vrij"]].map(([n,l]) => (
               <div key={l}>
                 <p className="font-heading text-3xl text-accent">{n}</p>
                 <p className="font-body text-xs uppercase tracking-wider text-primary-foreground/70 mt-1">{l}</p>
