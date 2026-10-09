@@ -18,8 +18,9 @@ const BrandCard = ({ name, slug, country, description, category, url, flag, pric
   return (
     <Link
       to={`/merk/${slug}`}
-      className="group block bg-card rounded-lg p-6 border border-border hover:border-primary/30 transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
+      className="group relative flex flex-col overflow-hidden bg-background rounded-xl p-6 border border-border hover:border-primary/40 transition-all duration-300 hover:shadow-xl hover:-translate-y-1"
     >
+      <span className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-primary to-accent scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-500" />
       <div className="flex items-start justify-between mb-4">
         <div>
           <h3 className="font-heading text-2xl text-card-foreground group-hover:text-primary transition-colors">
@@ -33,7 +34,7 @@ const BrandCard = ({ name, slug, country, description, category, url, flag, pric
           </div>
         </div>
       </div>
-      <p className="font-body text-sm text-muted-foreground leading-relaxed mb-4 line-clamp-3">
+      <p className="font-body text-sm text-muted-foreground leading-relaxed mb-6 line-clamp-3 flex-1">
         {description}
       </p>
       <div className="flex items-end justify-between">
