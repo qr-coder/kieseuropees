@@ -1,3 +1,4 @@
+import Flag from "@/components/Flag";
 import { useParams, Link } from "react-router-dom";
 import { brands } from "@/data/brands";
 import Navbar from "@/components/Navbar";
@@ -127,7 +128,7 @@ const BrandPage = () => {
               Terug naar merken
             </Link>
             <div className="flex items-center gap-3 mb-2">
-              <span className="text-3xl">{brand.flag}</span>
+              <Flag emoji={brand.flag} className="w-9 h-auto" />
               <span className="inline-block font-body text-xs tracking-wider uppercase bg-primary text-primary-foreground px-3 py-1 rounded-full">
                 {brand.category}
               </span>
@@ -148,7 +149,7 @@ const BrandPage = () => {
               <MapPin className="w-5 h-5 text-primary" />
               <div>
                 <p className="font-body text-xs text-muted-foreground uppercase tracking-wider">Land</p>
-                <p className="font-body text-sm text-card-foreground">{brand.flag} {brand.country}</p>
+                <p className="font-body text-sm text-card-foreground"><Flag emoji={brand.flag} className="w-4 h-auto mr-1" />{brand.country}</p>
               </div>
             </div>
             <div className="flex items-center gap-3 bg-card rounded-lg p-4 border border-border">
