@@ -24,7 +24,7 @@ const BrandCard = ({ name, slug, country, description, category, url, flag, pric
       onClick={(e) => e.stopPropagation()}
       className="inline-flex shrink-0 items-center gap-1.5 bg-primary text-primary-foreground font-body text-xs tracking-wider uppercase px-3 py-1.5 md:px-4 md:py-2 rounded-lg hover:bg-primary/90 transition-colors"
     >
-      Koop
+      Shop
       <ExternalLink className="w-3.5 h-3.5" />
     </a>
   );
