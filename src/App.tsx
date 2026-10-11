@@ -8,6 +8,7 @@ import BrandPage from "./pages/BrandPage";
 import NotFound from "./pages/NotFound";
 import ReasonPage from "./pages/ReasonPage";
 import ScrollToTop from "./components/ScrollToTop";
+import TopJeans2026 from "./pages/TopJeans2026";
 
 const queryClient = new QueryClient();
 
@@ -22,6 +23,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/merk/:slug" element={<BrandPage />} />
           <Route path="/waarom/:slug" element={<ReasonPage />} />
+          <Route path="/top-jeans-2026" element={<TopJeans2026 />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
